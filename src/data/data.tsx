@@ -180,6 +180,7 @@ export const skills: SkillGroup[] = [
 /**
  * Portfolio section
  */
+// 移除所有 portfolioImageX 匯入，因為 portfolioItems 陣列是空的
 export const portfolioItems: PortfolioItem[] = [
 ];
 
@@ -191,13 +192,12 @@ export const education: TimelineItem[] = [
     date: 'June 2019',
     location: 'Taiwan, Kaohsiung',
     title: 'Masters of Business Administration, Master',
-    // --- 修正點：將內容改為字串，並使用 <br/> 換行 ---
     content: (
       <p>
         GPA 4.09 <br/>
         Thesis: An analysis of features of the total revenue of the concerts based on Machine Learning (Support Vector Machine)
       </p>
-    ), // 注意：這裡使用 JSX 必須用 ( ) 包起來，但 <p> 標籤仍然是有效的 JSX
+    ),
   },
 ];
 
@@ -209,8 +209,8 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         ●Executed the Ministry of Digital Affairs Innovation Subsidy Project.
-       <br/>●Built an intelligent exam question bank using Python.
-       <br/>●Implemented process management by automating scheduling across the examination system.
+        <br/>●Built an intelligent exam question bank using Python.
+        <br/>●Implemented process management by automating scheduling across the examination system.
       </p>
     ),
   },
@@ -221,14 +221,14 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         ● Al Recommendation ToolDeployment – Utilized unsupervised learning techniquessuch asthe PCA model, Collaborative Filtering,
-and Cosine Similarity, to establish a cloud ETL pipeline in Microsoft Azure ML Studio to support the Al recommendation system
-for Advantech's PaaS e-commerce platform.
-<br/>● Pricing Strategy Optimization – Worked as a project owner to research and develop a model to evaluate the bargaining power
-between customers and company. Cooperated with the pricing team to set appropriate prices or discounts and maximize our
-business and revenue growth.
-<br/>● Project coordinator in the Al Strategy Group – As a core member and the project coordinator in the AI strategic group, worked
-with the management team on AI-related projects and was responsible for all the projects within the AI domain.
-<br/>● IT Vocal for Data visualization – As an IT department vocal, I coop
+        and Cosine Similarity, to establish a cloud ETL pipeline in Microsoft Azure ML Studio to support the Al recommendation system
+        for Advantech's PaaS e-commerce platform.
+        <br/>● Pricing Strategy Optimization – Worked as a project owner to research and develop a model to evaluate the bargaining power
+        between customers and company. Cooperated with the pricing team to set appropriate prices or discounts and maximize our
+        business and revenue growth.
+        <br/>● Project coordinator in the Al Strategy Group – As a core member and the project coordinator in the AI strategic group, worked
+        with the management team on AI-related projects and was responsible for all the projects within the AI domain.
+        <br/>● IT Vocal for Data visualization – As an IT department vocal, I cooperated with the data team to establish a data visualization platform, enabling better insights and decision-making across the organization.
       </p>
     ),
   },
@@ -236,42 +236,42 @@ with the management team on AI-related projects and was responsible for all the 
     date: "August 2021 - January 2022",
     location: "Gamania Co., Ltd",
     title: "Senior Data Scientist",
-  content: (
+    content: (
       <p>
         ●API Integration and Data Reshaping – Used R and Python for web crawling to retrieve data from APIs and then used PostgreSQL
-to clean and reshape the data, determining which games are the most profitable in our company and assisting the business team
-on decision making
-<br />● Feature Extraction from Low-Quality Images – Used a machine learning GAN model to extract features from low-quality images,
-allowing us to identify player preferences and enhance the gaming experience.
+        to clean and reshape the data, determining which games are the most profitable in our company and assisting the business team
+        on decision making
+        <br />● Feature Extraction from Low-Quality Images – Used a machine learning GAN model to extract features from low-quality images,
+        allowing us to identify player preferences and enhance the gaming experience.
       </p>
     ),
   },
-   {
+  {
     date: "April 2021 - August 2021",
     location: "Taiwan Semiconductor Manufacturing Company, Ltd",
     title: "Supervisor",
     content: (
       <p>
         ●Process Improvement and Quality Control – Produced daily wafer quality reports to track yield, identify rework causes, and
-improve overall process consistency.
-<br />● Team Management and Performance Evaluation – Supervised 80 employees with regular performance reviews and coaching,
-earning recognition with the Best Newcomer, Rising Star, and Plant Manager Awards.
+        improve overall process consistency.
+        <br />● Team Management and Performance Evaluation – Supervised 80 employees with regular performance reviews and coaching,
+        earning recognition with the Best Newcomer, Rising Star, and Plant Manager Awards.
       </p>
     ),
   },
-     {
+  {
     date: "July 2019 - March 2021",
     location: "CTBC Financial Holding Co., Ltd",
     title: "Management Associate (Data Engineer)",
     content: (
       <p>
-      ● Smile Check-in Project – As the project developer, we used the Yolo V4 model to capture facial expressions, specifically focusing
-on smiles. This enabled our employees to check in quickly at headquarters by smiling at the camera.
-<br />● Dress Detection System Development – Collaborated with HR teams to develop a machine learning system that automatically
-inspects employees' attire as they pass by the camera to ensure compliance with company standards.
-<br />● Credit Card Fraud Detection Project – Used a machine learning program with six algorithms to identify potential fraudulent credit
-card transactions. This approach saved manual review costs and reduced client inconvenience from unnecessary customer service
-calls.
+        ● Smile Check-in Project – As the project developer, we used the Yolo V4 model to capture facial expressions, specifically focusing
+        on smiles. This enabled our employees to check in quickly at headquarters by smiling at the camera.
+        <br />● Dress Detection System Development – Collaborated with HR teams to develop a machine learning system that automatically
+        inspects employees' attire as they pass by the camera to ensure compliance with company standards.
+        <br />● Credit Card Fraud Detection Project – Used a machine learning program with six algorithms to identify potential fraudulent credit
+        card transactions. This approach saved manual review costs and reduced client inconvenience from unnecessary customer service
+        calls.
       </p>
     ),
   },
