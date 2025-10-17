@@ -277,6 +277,36 @@ export const experience: TimelineItem[] = [
 ];
 
 /**
+ * Certification section
+ */
+export const certifications: TimelineItem[] = [
+  {
+    date: 'September 2025',
+    location: 'Google / Coursera',
+    title: 'Google Project Management Professional Certificate',
+    content: (
+      <p>
+        Completed 7-course professional certificate covering foundations, initiation, planning, execution, and agile project management
+        <br/>Credential ID: ZVO1YI29336N
+        <br/>Skills: Traditional & Agile Project Management, Project Planning, Risk Management
+      </p>
+    ),
+  },
+  {
+    date: 'September 2025',
+    location: 'Google for Education',
+    title: 'Gemini Certified Educator',
+    content: (
+      <p>
+        Certified in using Google AI (Gemini) in education
+        <br/>Valid through: September 2028
+        <br/>Demonstrated knowledge, skills, and competencies needed to use Google AI in education
+      </p>
+    ),
+  },
+];
+
+/**
  * Testimonial section
  */
 export const testimonial: TestimonialSection = {
