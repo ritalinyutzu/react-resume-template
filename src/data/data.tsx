@@ -96,7 +96,7 @@ export const aboutData: About = {
 Previously, I was a Senior Data Scientist at Gamania Digital Entertainment, where I analyzed the profitability data of mobile games and provided data-driven insights for business decisions. I also reduced the costs of using App Annie by web crawling the metadata from API resources using R or Python and PostgreSQL. I have a Master's degree in MBA from National Sun Yat-Sen University, where I developed my skills in data science, data visualization, and Spanish. I am passionate about machine learning, artificial neural networks, and statistics, and I enjoy creating and selling my own paintings on OpenSea.`,
   aboutItems: [
     {label: 'Location', text: 'Taiwan, Taipei', Icon: MapIcon},
-    {label: 'Age', text: '30', Icon: CalendarIcon},
+    {label: 'Age', text: 'Forever 18', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Taiwan / Taiwanese', Icon: FlagIcon},
     {label: 'Interests', text: 'Music Festival, Boxing, Boulding', Icon: SparklesIcon},
     {label: 'Study', text: 'National Sun-Yat-Sen University', Icon: AcademicCapIcon},
