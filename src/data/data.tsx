@@ -191,7 +191,13 @@ export const education: TimelineItem[] = [
     date: 'June 2019',
     location: 'Taiwan, Kaohsiung',
     title: 'Masters of Business Administration, Master',
-    content: <p> GPA 4.09 /n Thesis : An analysis of features of the total revenue of the concerts based on Machine Learning (Support Vector Machine)</p>,
+    // --- 修正點：將內容改為字串，並使用 <br/> 換行 ---
+    content: (
+      <p>
+        GPA 4.09 <br/>
+        Thesis: An analysis of features of the total revenue of the concerts based on Machine Learning (Support Vector Machine)
+      </p>
+    ), // 注意：這裡使用 JSX 必須用 ( ) 包起來，但 <p> 標籤仍然是有效的 JSX
   },
 ];
 
