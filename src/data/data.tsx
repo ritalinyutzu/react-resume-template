@@ -11,9 +11,7 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
+import heroImage from '../images/header-background.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -26,7 +24,7 @@ import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.webp';
+import testimonialImage from '../images/testimonial.jpg';
 import {
   About,
   ContactSection,
@@ -45,7 +43,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  description: "Example site built with Rita Lin's react resume template",
 };
 
 /**
@@ -69,18 +67,18 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Rita Lin.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
+        I'm a Taipei based <strong className="text-stone-100">Senior AI Engineer</strong>, currently working
+        at <strong className="text-stone-100"> a technology company </strong> helping build a AI LLM related model, writing agile management projeccts, domain
         registrar and site builder.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me training in <strong className="text-stone-100">MMA</strong>,
+        Bouldering <strong className="text-stone-100">Music Festival</strong>, or exploring beautiful{' '}
+        <strong className="text-stone-100">Taiwan</strong>.
       </p>
     </>
   ),
@@ -104,16 +102,15 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `As a Senior AI Engineer at Advantech, I apply my expertise in GAN and recommender systems to create innovative solutions for various industries. I collaborate with cross-functional teams to deliver high-quality products that meet the needs and expectations of our clients.
+Previously, I was a Senior Data Scientist at Gamania Digital Entertainment, where I analyzed the profitability data of mobile games and provided data-driven insights for business decisions. I also reduced the costs of using App Annie by web crawling the metadata from API resources using R or Python and PostgreSQL. I have a Master's degree in MBA from National Sun Yat-Sen University, where I developed my skills in data science, data visualization, and Spanish. I am passionate about machine learning, artificial neural networks, and statistics, and I enjoy creating and selling my own paintings on OpenSea.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Taiwan, Taipei', Icon: MapIcon},
+    {label: 'Age', text: '30', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Taiwan / Taiwanese', Icon: FlagIcon},
+    {label: 'Interests', text: 'Music Festival, Boxing, Boulding', Icon: SparklesIcon},
+    {label: 'Study', text: 'National Sun-Yat-Sen University', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Technology Company', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -139,19 +136,19 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Programming Language',
     skills: [
       {
-        name: 'React',
+        name: 'Python',
         level: 9,
       },
       {
-        name: 'Typescript',
-        level: 7,
+        name: 'SQL',
+        level: 9,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'R',
+        level: 8,
       },
     ],
   },
@@ -160,15 +157,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 8,
+        level: 4,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Yark',
+        level: 3,
       },
       {
         name: 'Golang',
-        level: 4,
+        level: 3,
       },
     ],
   },
@@ -177,11 +174,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React Native',
-        level: 9,
+        level: 3,
       },
       {
         name: 'Flutter',
-        level: 4,
+        level: 3,
       },
       {
         name: 'Swift',
@@ -195,72 +192,6 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
-  {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage1,
-  },
-  {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
-  },
 ];
 
 /**
@@ -268,39 +199,84 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'June 2019',
+    location: 'Taiwan, Kaohsiung',
+    title: 'Masters of Business Administration, Master',
+    content: <p> GPA 4.09 /n Thesis : An analysis of features of the total revenue of the concerts based on Machine Learning (Support Vector Machine)</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'September 2025 - Present',
+    location: 'See U Tech Co., Ltd',
+    title: 'Project Manager',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        ●Executed the Ministry of Digital Affairs Innovation Subsidy Project.
+       <br/>●Built an intelligent exam question bank using Python.
+       <br/>●Implemented process management by automating scheduling across the examination system.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'March 2022 - March 2024',
+    location: 'Advantech Co., Ltd',
+    title: 'Senior AI Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        ● Al Recommendation ToolDeployment – Utilized unsupervised learning techniquessuch asthe PCA model, Collaborative Filtering,
+and Cosine Similarity, to establish a cloud ETL pipeline in Microsoft Azure ML Studio to support the Al recommendation system
+for Advantech's PaaS e-commerce platform.
+<br/>● Pricing Strategy Optimization – Worked as a project owner to research and develop a model to evaluate the bargaining power
+between customers and company. Cooperated with the pricing team to set appropriate prices or discounts and maximize our
+business and revenue growth.
+<br/>● Project coordinator in the Al Strategy Group – As a core member and the project coordinator in the AI strategic group, worked
+with the management team on AI-related projects and was responsible for all the projects within the AI domain.
+<br/>● IT Vocal for Data visualization – As an IT department vocal, I coop
+      </p>
+    ),
+  },
+  {
+    date: "August 2021 - January 2022",
+    location: "Gamania Co., Ltd",
+    title: "Senior Data Scientist",
+  content: (
+      <p>
+        ●API Integration and Data Reshaping – Used R and Python for web crawling to retrieve data from APIs and then used PostgreSQL
+to clean and reshape the data, determining which games are the most profitable in our company and assisting the business team
+on decision making
+<br />● Feature Extraction from Low-Quality Images – Used a machine learning GAN model to extract features from low-quality images,
+allowing us to identify player preferences and enhance the gaming experience.
+      </p>
+    ),
+  },
+   {
+    date: "April 2021 - August 2021",
+    location: "Taiwan Semiconductor Manufacturing Company, Ltd",
+    title: "Supervisor",
+    content: (
+      <p>
+        ●Process Improvement and Quality Control – Produced daily wafer quality reports to track yield, identify rework causes, and
+improve overall process consistency.
+<br />● Team Management and Performance Evaluation – Supervised 80 employees with regular performance reviews and coaching,
+earning recognition with the Best Newcomer, Rising Star, and Plant Manager Awards.
+      </p>
+    ),
+  },
+     {
+    date: "July 2019 - March 2021",
+    location: "CTBC Financial Holding Co., Ltd",
+    title: "Management Associate (Data Engineer)",
+    content: (
+      <p>
+      ● Smile Check-in Project – As the project developer, we used the Yolo V4 model to capture facial expressions, specifically focusing
+on smiles. This enabled our employees to check in quickly at headquarters by smiling at the camera.
+<br />● Dress Detection System Development – Collaborated with HR teams to develop a machine learning system that automatically
+inspects employees' attire as they pass by the camera to ensure compliance with company standards.
+<br />● Credit Card Fraud Detection Project – Used a machine learning program with six algorithms to identify potential fraudulent credit
+card transactions. This approach saved manual review costs and reduced client inconvenience from unnecessary customer service
+calls.
       </p>
     ),
   },
@@ -336,27 +312,27 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Reach out to Rita Lin.',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'msmile09@hotmail.com',
+      href: 'mailto:msmile09@hotmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Taiwan, Taipei',
+      href: 'https://www.google.ca/maps/place/Taipei,+Taiwan/@25.0330,121.5654,14z',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@ritalinyutzu',
+      href: 'https://www.instagram.com/ritalinyutzu/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'ritalinyutzu',
+      href: 'https://github.com/ritalinyutzu',
     },
   ],
 };
@@ -365,9 +341,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/ritalinyutzu'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/ritalinyutzu/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ritalinyutzu/'},
 ];
