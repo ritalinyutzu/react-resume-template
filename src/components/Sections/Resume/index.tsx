@@ -1,6 +1,6 @@
 import {FC, memo} from 'react';
 
-import {education, experience, certifications, SectionId, skills} from '../../../data/data';
+import {certifications, education, experience, SectionId, skills} from '../../../data/data';
 import Section from '../../Layout/Section';
 import ResumeSection from './ResumeSection';
 import {SkillGroup} from './Skills';
@@ -39,4 +39,5 @@ const Resume: FC = memo(() => {
 });
 
 Resume.displayName = 'Resume';
+
 export default Resume;
