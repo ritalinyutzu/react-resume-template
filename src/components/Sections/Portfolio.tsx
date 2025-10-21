@@ -66,7 +66,7 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, descrip
   return (
     
       className={classNames(
-        'absolute inset-0 h-full w-full bg-gray-900 transition-all duration-300',
+        'absolute inset-0 h-full w-full  bg-gray-900 transition-all duration-300',
         {'opacity-0 hover:opacity-80': !mobile},
         showOverlay ? 'opacity-80' : 'opacity-0',
       )}
