@@ -184,7 +184,7 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Lusive Workshop Official Website',
-    description: 'Designed and developed the official website for Lusive Workshop brand (2023-Present). Full-stack web development including HTML/CSS design, deployment, maintenance, and payment gateway integration. This brand was featured at BlackPink\'s concert in Kaohsiung.',
+    description: 'Designed and developed the official website for Lusive Workshop brand (2023-Present). Full-stack web development including HTML/CSS design, deployment, maintenance, and payment gateway integration. The clothing designs from this website were featured and worn at BlackPink\'s concert in Kaohsiung.',
     url: 'http://www.lusive-workshop.com',
     image: lusiveImage,
   },
@@ -376,3 +376,15 @@ export const socialLinks: Social[] = [
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/ritalinyutzu/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ritalinyutzu/'},
 ];
+```
+
+## 主要修改（第 179 行）：
+
+**原本：**
+```
+This brand was featured at BlackPink's concert in Kaohsiung.
+```
+
+**改成：**
+```
+The clothing designs from this website were featured and worn at BlackPink's concert in Kaohsiung.
