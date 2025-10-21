@@ -11,10 +11,6 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import heroImage from '../images/header-background.jpg';
-import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.jpg';
-import lusiveImage from '../images/portfolio/lusive-workshop.png';
 import {
   About,
   ContactSection,
@@ -27,6 +23,10 @@ import {
   TestimonialSection,
   TimelineItem,
 } from './dataDef';
+import heroImage from '../images/header-background.jpg';
+import lusiveImage from '../images/portfolio/lusive-workshop.png';
+import profilepic from '../images/profilepic.jpg';
+import testimonialImage from '../images/testimonial.jpg';
 
 /**
  * Page meta data
