@@ -181,6 +181,11 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
+  {
+    title: 'Lusive Workshop Official Website',
+    description: 'Designed and developed the official website for Lusive Workshop brand (2023-Present). Full-stack web development including HTML/CSS design, deployment, maintenance, and payment gateway integration. This brand was featured at BlackPink\'s concert in Kaohsiung.',
+    url: 'http://www.lusive-workshop.com',
+  },
 ];
 
 /**
