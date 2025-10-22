@@ -16,7 +16,7 @@ const Portfolio: FC = memo(() => {
               const {title, image, description, url} = item;
               return (
                 <div className="pb-8" key={`${title}-${index}`}>
-                  <a href={url} target="_blank" rel="noopener noreferrer" className="block">
+                  <a className="block" href={url} rel="noopener noreferrer" target="_blank">
                     <div className="overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl">
                       <Image 
                         alt={title} 
