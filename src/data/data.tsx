@@ -31,8 +31,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Rita Lin's Website',
-  description: "An Ai Engineer's professional Journal",
+  title: 'Rita Lin Portfolio',
+  description: 'Senior AI Engineer and Project Manager',
 };
 
 /**
@@ -65,7 +65,7 @@ export const heroData: Hero = {
         registrar and site builder.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, you can catch me training in <strong className="text-stone-100">MMA</strong>, <strong className="text-stone-100">Boulding</strong>, <strong className="text-stone-100">Music Festival</strong>, <strong className="text-stone-100">Free Diving</strong>, <strong className="text-stone-100">Surfing</strong>, <strong className="text-stone-100">Skateboarding</strong>.
+        In my free time, you can catch me training in <strong className="text-stone-100">MMA</strong>, <strong className="text-stone-100">Bouldering</strong>, <strong className="text-stone-100">Music Festival</strong>, <strong className="text-stone-100">Free Diving</strong>, <strong className="text-stone-100">Surfing</strong>, <strong className="text-stone-100">Skateboarding</strong>.
       </p>
     </>
   ),
@@ -109,11 +109,11 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'French',
-        level: 5,
+        level: 4,
       },
       {
         name: 'Spanish',
-        level: 4,
+        level: 3,
       },
     ],
   },
@@ -147,7 +147,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Java',
-        level: 4,
+        level: 3,
       },
     ],
   },
@@ -192,7 +192,7 @@ export const education: TimelineItem[] = [
     title: 'Masters of Business Administration, Master',
     content: (
       <p>
-        GPA 4.09 (92.30) <br/>
+        GPA 4.09 <br/>
         Thesis: An analysis of features of the total revenue of the concerts based on Machine Learning (Support Vector Machine)
       </p>
     ),
@@ -203,7 +203,7 @@ export const experience: TimelineItem[] = [
   {
     date: 'September 2025 - Present',
     location: 'See U Tech Co., Ltd',
-    title: 'Project Manager / AI Engineer',
+    title: 'Project Manager',
     content: (
       <p>
         ●Executed the Ministry of Digital Affairs Innovation Subsidy Project.
@@ -286,18 +286,18 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Friedrich Nietzsche',
-      text: 'What is great in man is that he is a bridge and not an end.',
+      name: 'John Doe',
+      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
-      name: 'Friedrich Nietzsche',
-      text: 'One repays a teacher badly if one always remains nothing but a pupil.',
+      name: 'Jane Doe',
+      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
-      name: 'Friedrich Nietzsche',
-      text: 'You must be ready to burn yourself in your own flame; how could you rise anew if you have not first become ashes?',
+      name: 'Someone else',
+      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
@@ -307,8 +307,8 @@ export const testimonial: TestimonialSection = {
  * Contact section
  */
 export const contact: ContactSection = {
-  headerText: 'Get in touch',
-  description: 'Reach out to Rita Lin',
+  headerText: 'Get in touch.',
+  description: 'Reach out to Rita Lin.',
   items: [
     {
       type: ContactType.Email,
