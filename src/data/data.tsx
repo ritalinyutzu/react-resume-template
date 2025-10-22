@@ -203,7 +203,7 @@ export const experience: TimelineItem[] = [
   {
     date: 'September 2025 - Present',
     location: 'See U Tech Co., Ltd',
-    title: 'Project Manager',
+    title: 'Project Manager / AI Engineer',
     content: (
       <p>
         ● Executed the Ministry of Digital Affairs Innovation Subsidy Project.
@@ -264,7 +264,7 @@ export const experience: TimelineItem[] = [
   {
     date: "July 2019 - March 2021",
     location: "CTBC Financial Holding Co., Ltd",
-    title: "Management Associate (Data Engineer)",
+    title: "Management Associate / Data Engineer ",
     content: (
       <p>
         ● Smile Check-in Project – As the project developer, we used the Yolo V4 model to capture facial expressions, specifically focusing on smiles. This enabled our employees to check in quickly at headquarters by smiling at the camera.
