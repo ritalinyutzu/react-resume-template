@@ -62,13 +62,16 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Taipei based <strong className="text-stone-100">Senior AI Engineer</strong>, currently working
-        at <strong className="text-stone-100"> a technology company </strong> helping build a AI LLM related model, writing agile management projeccts, domain
-        registrar and site builder.
+        at <strong className="text-stone-100">a technology company</strong> helping build AI LLM related models, 
+        writing agile management projects, domain registrar and site builder.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">MMA</strong>,
-        Bouldering <strong className="text-stone-100">Music Festival</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Taiwan</strong>.
+        In my free time, you can catch me training in <strong className="text-stone-100">MMA</strong>,{' '}
+        <strong className="text-stone-100">Bouldering</strong>,{' '}
+        <strong className="text-stone-100">Music Festival</strong>,{' '}
+        <strong className="text-stone-100">Free Diving</strong>,{' '}
+        <strong className="text-stone-100">Surfing</strong>,{' '}
+        <strong className="text-stone-100">Skateboarding</strong>.
       </p>
     </>
   ),
@@ -92,15 +95,15 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `As a Senior AI Engineer at Advantech, I apply my expertise in GAN and recommender systems to create innovative solutions for various industries. I collaborate with cross-functional teams to deliver high-quality products that meet the needs and expectations of our clients.
-Previously, I was a Senior Data Scientist at Gamania Digital Entertainment, where I analyzed the profitability data of mobile games and provided data-driven insights for business decisions. I also reduced the costs of using App Annie by web crawling the metadata from API resources using R or Python and PostgreSQL. I have a Master's degree in MBA from National Sun Yat-Sen University, where I developed my skills in data science, data visualization, and Spanish. I am passionate about machine learning, artificial neural networks, and statistics, and I enjoy creating and selling my own paintings on OpenSea.`,
+  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
+  to use or feel most comfortable with, describing your personality, or whatever else you like.`,
   aboutItems: [
-    {label: 'Location', text: 'Taiwan, Taipei', Icon: MapIcon},
-    {label: 'Age', text: 'Forever 18', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Taiwan / Taiwanese', Icon: FlagIcon},
-    {label: 'Interests', text: 'Music Festival, Boxing, Boulding', Icon: SparklesIcon},
-    {label: 'Study', text: 'National Sun-Yat-Sen University', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Technology Company', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Taipei, Taiwan', Icon: MapIcon},
+    {label: 'Age', text: '29', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Canadian / American', Icon: FlagIcon},
+    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -126,19 +129,19 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Programming Language',
+    name: 'Frontend development',
     skills: [
       {
-        name: 'Python',
+        name: 'React',
         level: 9,
       },
       {
-        name: 'SQL',
-        level: 9,
+        name: 'Typescript',
+        level: 7,
       },
       {
-        name: 'R',
-        level: 8,
+        name: 'GraphQL',
+        level: 6,
       },
     ],
   },
@@ -147,32 +150,32 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 6,
+        level: 8,
       },
       {
-        name: 'PHP',
-        level: 6,
+        name: 'Rust',
+        level: 5,
       },
       {
-        name: 'Java',
-        level: 3,
+        name: 'Golang',
+        level: 4,
       },
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Mobile development',
     skills: [
       {
-        name: 'Html',
-        level: 7,
+        name: 'React Native',
+        level: 9,
       },
       {
-        name: 'CSS',
-        level: 6,
+        name: 'Flutter',
+        level: 4,
       },
       {
-        name: 'React',
-        level: 6,
+        name: 'Swift',
+        level: 3,
       },
     ],
   },
@@ -184,130 +187,50 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Lusive Workshop Official Website',
-    description: 'Designed and developed the official website for Lusive Workshop brand (2023-Present). Full-stack web development including HTML/CSS design, deployment, maintenance, and payment gateway integration. This brand was featured at BlackPink\'s concert in Kaohsiung.',
+    description: 'Full-stack web development for Lusive Workshop brand (2023-Present). Responsible for full-stack development including HTML/CSS design, deployment, maintenance, and payment gateway integration.',
     url: 'http://www.lusive-workshop.com',
     image: lusiveImage,
   },
 ];
 
 /**
- * Resume section -- TODO: Standardize resume contact format or offer MDX
+ * Resume section
  */
 export const education: TimelineItem[] = [
   {
-    date: 'June 2019',
-    location: 'Taiwan, Kaohsiung',
-    title: 'Masters of Business Administration, Master',
-    content: (
-      <p>
-        GPA 4.09 <br/>
-        Thesis: An analysis of features of the total revenue of the concerts based on Machine Learning (Support Vector Machine)
-      </p>
-    ),
+    date: 'April 2007',
+    location: 'Clown college',
+    title: 'Masters in Beer tasting',
+    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+  },
+  {
+    date: 'March 2003',
+    location: 'School of Business',
+    title: 'What did you study 101',
+    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'September 2025 - Present',
-    location: 'See U Tech Co., Ltd',
-    title: 'Project Manager',
+    date: 'March 2010 - Present',
+    location: 'Awesome Development Company',
+    title: 'Senior UX Engineer',
     content: (
       <p>
-        ●Executed the Ministry of Digital Affairs Innovation Subsidy Project.
-        <br/>●Built an intelligent exam question bank using Python.
-        <br/>●Implemented process management by automating scheduling across the examination system.
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
       </p>
     ),
   },
   {
-    date: 'March 2022 - March 2024',
-    location: 'Advantech Co., Ltd',
-    title: 'Senior AI Engineer',
+    date: 'March 2007 - February 2010',
+    location: 'Garage Startup Studio',
+    title: 'Junior bug fixer',
     content: (
       <p>
-        ● Al Recommendation ToolDeployment – Utilized unsupervised learning techniquessuch asthe PCA model, Collaborative Filtering,
-        and Cosine Similarity, to establish a cloud ETL pipeline in Microsoft Azure ML Studio to support the Al recommendation system
-        for Advantech's PaaS e-commerce platform.
-        <br/>● Pricing Strategy Optimization – Worked as a project owner to research and develop a model to evaluate the bargaining power
-        between customers and company. Cooperated with the pricing team to set appropriate prices or discounts and maximize our
-        business and revenue growth.
-        <br/>● Project coordinator in the Al Strategy Group – As a core member and the project coordinator in the AI strategic group, worked
-        with the management team on AI-related projects and was responsible for all the projects within the AI domain.
-        <br/>● IT Vocal for Data visualization – As an IT department vocal, I cooperated with the data team to establish a data visualization platform, enabling better insights and decision-making across the organization.
-      </p>
-    ),
-  },
-  {
-    date: "August 2021 - January 2022",
-    location: "Gamania Co., Ltd",
-    title: "Senior Data Scientist",
-    content: (
-      <p>
-        ●API Integration and Data Reshaping – Used R and Python for web crawling to retrieve data from APIs and then used PostgreSQL
-        to clean and reshape the data, determining which games are the most profitable in our company and assisting the business team
-        on decision making
-        <br />● Feature Extraction from Low-Quality Images – Used a machine learning GAN model to extract features from low-quality images,
-        allowing us to identify player preferences and enhance the gaming experience.
-      </p>
-    ),
-  },
-  {
-    date: "April 2021 - August 2021",
-    location: "Taiwan Semiconductor Manufacturing Company, Ltd",
-    title: "Supervisor",
-    content: (
-      <p>
-        ●Process Improvement and Quality Control – Produced daily wafer quality reports to track yield, identify rework causes, and
-        improve overall process consistency.
-        <br />● Team Management and Performance Evaluation – Supervised 80 employees with regular performance reviews and coaching,
-        earning recognition with the Best Newcomer, Rising Star, and Plant Manager Awards.
-      </p>
-    ),
-  },
-  {
-    date: "July 2019 - March 2021",
-    location: "CTBC Financial Holding Co., Ltd",
-    title: "Management Associate (Data Engineer)",
-    content: (
-      <p>
-        ● Smile Check-in Project – As the project developer, we used the Yolo V4 model to capture facial expressions, specifically focusing
-        on smiles. This enabled our employees to check in quickly at headquarters by smiling at the camera.
-        <br />● Dress Detection System Development – Collaborated with HR teams to develop a machine learning system that automatically
-        inspects employees' attire as they pass by the camera to ensure compliance with company standards.
-        <br />● Credit Card Fraud Detection Project – Used a machine learning program with six algorithms to identify potential fraudulent credit
-        card transactions. This approach saved manual review costs and reduced client inconvenience from unnecessary customer service
-        calls.
-      </p>
-    ),
-  },
-];
-
-/**
- * Certification section
- */
-export const certifications: TimelineItem[] = [
-  {
-    date: 'September 2025',
-    location: 'Google / Coursera',
-    title: 'Google Project Management Professional Certificate',
-    content: (
-      <p>
-        Completed 7-course professional certificate covering foundations, initiation, planning, execution, and agile project management
-        <br/>Credential ID: ZVO1YI29336N
-        <br/>Skills: Traditional & Agile Project Management, Project Planning, Risk Management
-      </p>
-    ),
-  },
-  {
-    date: 'September 2025',
-    location: 'Google for Education',
-    title: 'Gemini Certified Educator',
-    content: (
-      <p>
-        Certified in using Google AI (Gemini) in education
-        <br/>Valid through: September 2028
-        <br/>Demonstrated knowledge, skills, and competencies needed to use Google AI in education
+        Describe work, special projects, notable achievements, what technologies you have been working with, and
+        anything else that would be useful for an employer to know.
       </p>
     ),
   },
@@ -340,30 +263,29 @@ export const testimonial: TestimonialSection = {
 /**
  * Contact section
  */
-
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Reach out to Rita Lin.',
+  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
   items: [
     {
       type: ContactType.Email,
-      text: 'msmile09@hotmail.com',
-      href: 'mailto:msmile09@hotmail.com',
+      text: 'reachout@timbaker.ca',
+      href: 'mailto:reachout@timbaker.ca',
     },
     {
       type: ContactType.Location,
-      text: 'Taiwan, Taipei',
-      href: 'https://www.google.ca/maps/place/Taipei,+Taiwan/@25.0330,121.5654,14z',
+      text: 'Victoria BC, Canada',
+      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
     },
     {
       type: ContactType.Instagram,
-      text: '@ritalinyutzu',
-      href: 'https://www.instagram.com/ritalinyutzu/',
+      text: '@tbakerx',
+      href: 'https://www.instagram.com/tbakerx/',
     },
     {
       type: ContactType.Github,
-      text: 'ritalinyutzu',
-      href: 'https://github.com/ritalinyutzu',
+      text: 'tbakerx',
+      href: 'https://github.com/tbakerx',
     },
   ],
 };
@@ -372,7 +294,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/ritalinyutzu'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/ritalinyutzu/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ritalinyutzu/'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
 ];
