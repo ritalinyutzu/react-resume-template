@@ -61,16 +61,11 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Taipei based <strong className="text-stone-100">Senior AI Engineer</strong>, currently working
-        at <strong className="text-stone-100">a technology company</strong> helping build AI LLM related models, 
-        writing agile management projects, domain registrar and site builder.
+        at <strong className="text-stone-100">a technology company</strong> helping build AI LLM related models, writing agile management projects, domain
+        registrar and site builder.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, you can catch me training in <strong className="text-stone-100">MMA</strong>,{' '}
-        <strong className="text-stone-100">Bouldering</strong>,{' '}
-        <strong className="text-stone-100">Music Festival</strong>,{' '}
-        <strong className="text-stone-100">Free Diving</strong>,{' '}
-        <strong className="text-stone-100">Surfing</strong>,{' '}
-        <strong className="text-stone-100">Skateboarding</strong>.
+        In my free time, you can catch me training in <strong className="text-stone-100">MMA</strong>, <strong className="text-stone-100">Bouldering</strong>, <strong className="text-stone-100">Music Festival</strong>, <strong className="text-stone-100">Free Diving</strong>, <strong className="text-stone-100">Surfing</strong>, <strong className="text-stone-100">Skateboarding</strong>.
       </p>
     </>
   ),
@@ -88,15 +83,16 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you like.`,
+  description: `I am a Senior AI Engineer at a technology company, where I design, develop, and deploy artificial intelligence solutions for various domains and applications. 
+I collaborate with cross-functional teams to deliver high-quality products that meet the needs and expectations of our clients.
+Previously, I was a Senior Data Scientist at Gamania Digital Entertainment, where I analyzed the profitability data of mobile games and provided data-driven insights for business decisions. I also reduced the costs of using App Annie by web crawling the metadata from API resources using R or Python and PostgreSQL. I have a Master's degree in MBA from National Sun Yat-Sen University, where I developed my skills in data science, data visualization, and Spanish. I am passionate about machine learning, artificial neural networks, and statistics, and I enjoy creating and selling my own paintings on OpenSea.`,
   aboutItems: [
-    {label: 'Location', text: 'Taipei, Taiwan', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / American', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Taiwan, Taipei', Icon: MapIcon},
+    {label: 'Age', text: 'Forever 18', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Taiwan / Taiwanese', Icon: FlagIcon},
+    {label: 'Interests', text: 'Music Festival, Boxing, Boulding', Icon: SparklesIcon},
+    {label: 'Study', text: 'National Sun-Yat-Sen University', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Technology Company', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -122,19 +118,19 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Programming Language',
     skills: [
       {
-        name: 'React',
+        name: 'Python',
         level: 9,
       },
       {
-        name: 'Typescript',
-        level: 7,
+        name: 'SQL',
+        level: 9,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'R',
+        level: 8,
       },
     ],
   },
@@ -143,32 +139,32 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 8,
+        level: 6,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'PHP',
+        level: 6,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'Java',
+        level: 3,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Frontend development',
     skills: [
       {
-        name: 'React Native',
-        level: 9,
+        name: 'Html',
+        level: 7,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'CSS',
+        level: 6,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'React',
+        level: 6,
       },
     ],
   },
@@ -180,7 +176,7 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Lusive Workshop Official Website',
-    description: 'Full-stack web development for Lusive Workshop brand (2023-Present). Responsible for full-stack development including HTML/CSS design, deployment, maintenance, and payment gateway integration.',
+    description: 'Designed and developed the official website for Lusive Workshop brand (2023-Present). Full-stack web development including HTML/CSS design, deployment, maintenance, and payment gateway integration. The clothing designs from this website were featured and worn at BlackPink\'s concert in Kaohsiung.',
     url: 'http://www.lusive-workshop.com',
     image: lusiveImage,
   },
@@ -191,48 +187,97 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'June 2019',
+    location: 'Taiwan, Kaohsiung',
+    title: 'Masters of Business Administration, Master',
+    content: (
+      <p>
+        GPA 4.09 <br/>
+        Thesis: An analysis of features of the total revenue of the concerts based on Machine Learning (Support Vector Machine)
+      </p>
+    ),
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'September 2025 - Present',
+    location: 'See U Tech Co., Ltd',
+    title: 'Project Manager',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        ●Executed the Ministry of Digital Affairs Innovation Subsidy Project.
+        <br/>●Built an intelligent exam question bank using Python.
+        <br/>●Implemented process management by automating scheduling across the examination system.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'March 2022 - March 2024',
+    location: 'Advantech Co., Ltd',
+    title: 'Senior AI Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        ● Al Recommendation ToolDeployment – Utilized unsupervised learning techniquessuch asthe PCA model, Collaborative Filtering,
+        and Cosine Similarity, to establish a cloud ETL pipeline in Microsoft Azure ML Studio to support the Al recommendation system
+        for Advantech's PaaS e-commerce platform.
+        <br/>● Pricing Strategy Optimization – Worked as a project owner to research and develop a model to evaluate the bargaining power
+        between customers and company. Cooperated with the pricing team to set appropriate prices or discounts and maximize our
+        business and revenue growth.
+        <br/>● Project coordinator in the Al Strategy Group – As a core member and the project coordinator in the AI strategic group, worked
+        with the management team on AI-related projects and was responsible for all the projects within the AI domain.
+        <br/>● IT Vocal for Data visualization – As an IT department vocal, I cooperated with the data team to establish a data visualization platform, enabling better insights and decision-making across the organization.
+      </p>
+    ),
+  },
+  {
+    date: 'July 2018 - March 2022',
+    location: 'Gamania Digital Entertainment',
+    title: 'Senior Data Scientist',
+    content: (
+      <p>
+        ● Analyzed profitability data of mobile games and provided data-driven insights for business decisions.
+        <br />● Reduced costs of using App Annie by web crawling metadata from API resources using R/Python and PostgreSQL.
+        <br />● Developed predictive models and dashboards for game performance monitoring.
+        <br />● Dress Detection System Development – Collaborated with HR teams to develop a machine learning system that automatically
+        inspects employees' attire as they pass by the camera to ensure compliance with company standards.
+        <br />● Credit Card Fraud Detection Project – Used a machine learning program with six algorithms to identify potential fraudulent credit
+        card transactions. This approach saved manual review costs and reduced client inconvenience from unnecessary customer service
+        calls.
       </p>
     ),
   },
 ];
 
 /**
- * Certifications section
+ * Certification section
  */
-export const certifications: TimelineItem[] = [];
+export const certifications: TimelineItem[] = [
+  {
+    date: 'September 2025',
+    location: 'Google / Coursera',
+    title: 'Google Project Management Professional Certificate',
+    content: (
+      <p>
+        Completed 7-course professional certificate covering foundations, initiation, planning, execution, and agile project management
+        <br/>Credential ID: ZVO1YI29336N
+        <br/>Skills: Traditional & Agile Project Management, Project Planning, Risk Management
+      </p>
+    ),
+  },
+  {
+    date: 'September 2025',
+    location: 'Google for Education',
+    title: 'Gemini Certified Educator',
+    content: (
+      <p>
+        Certified in using Google AI (Gemini) in education
+        <br/>Valid through: September 2028
+        <br/>Demonstrated knowledge, skills, and competencies needed to use Google AI in education
+      </p>
+    ),
+  },
+];
 
 /**
  * Testimonial section
@@ -241,18 +286,18 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      name: 'Friedrich Nietzsche',
+      text: 'What is great in man is that he is a bridge and not an end.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      name: 'Friedrich Nietzsche',
+      text: 'One repays a teacher badly if one always remains nothing but a pupil.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      name: 'Friedrich Nietzsche',
+      text: 'You must be ready to burn yourself in your own flame; how could you rise anew if you have not first become ashes?',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
@@ -262,28 +307,28 @@ export const testimonial: TestimonialSection = {
  * Contact section
  */
 export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  headerText: 'Get in touch',
+  description: 'Reach out to Rita Lin',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.ca',
-      href: 'mailto:reachout@timbaker.ca',
+      text: 'msmile09@hotmail.com',
+      href: 'mailto:msmile09@hotmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Taiwan, Taipei',
+      href: 'https://www.google.ca/maps/place/Taipei,+Taiwan/@25.0330,121.5654,14z',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@ritalinyutzu',
+      href: 'https://www.instagram.com/ritalinyutzu/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'ritalinyutzu',
+      href: 'https://github.com/ritalinyutzu',
     },
   ],
 };
@@ -292,7 +337,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/ritalinyutzu'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/ritalinyutzu/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ritalinyutzu/'},
 ];
