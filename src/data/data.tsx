@@ -237,6 +237,11 @@ export const experience: TimelineItem[] = [
 ];
 
 /**
+ * Certifications section
+ */
+export const certifications: TimelineItem[] = [];
+
+/**
  * Testimonial section
  */
 export const testimonial: TestimonialSection = {
