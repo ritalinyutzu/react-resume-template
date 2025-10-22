@@ -206,44 +206,70 @@ export const experience: TimelineItem[] = [
     title: 'Project Manager',
     content: (
       <p>
-        ●Executed the Ministry of Digital Affairs Innovation Subsidy Project.
-        <br/>●Built an intelligent exam question bank using Python.
-        <br/>●Implemented process management by automating scheduling across the examination system.
+        ● Executed the Ministry of Digital Affairs Innovation Subsidy Project.
+        <br/>● Built an intelligent exam question bank using Python.
+        <br/>● Implemented process management by automating scheduling across the examination system.
+      </p>
+    ),
+  },
+  {
+    date: 'June 2025 - September 2025',
+    location: 'Leyan Co., Ltd',
+    title: 'Project Manager / Quality Assurance Engineer',
+    content: (
+      <p>
+        ● SST AI Image Recognition: Leading the implementation of an AI image recognition system, automating dental image labeling and optimizing clinical workflows.
+        <br/>● Applied Science and Technology Union AI Image Recognition: Coordinate cross-functional teams to build an AI-based medical image recognition system supporting dental diagnostics and clinical applications.
+        <br/>● Clinic Profile Data Import for Allied Clinics: Planning and executing clinic profile data import processes, enabling rapid system onboarding across multiple allied clinics.
+        <br/>● WebHIS Billing Module Development and Data Management: Driving the development and testing of the WebHIS billing module, improving healthcare cost settlement efficiency and accuracy, and leading the implementation of the master data management module, enhancing clinic operations and patient data integrity.
+        <br/>● Software Testing Plan – Unit Testing and Integration Testing: Designing and executing unit test plans to ensure functional accuracy and quality consistency across system modules, also conduct integration testing and prepare test reports, validating cross-system stability and reducing release risks.
       </p>
     ),
   },
   {
     date: 'March 2022 - March 2024',
     location: 'Advantech Co., Ltd',
-    title: 'Senior AI Engineer',
+    title: 'Senior AI Engineer / Project Manager',
     content: (
       <p>
-        ● Al Recommendation ToolDeployment – Utilized unsupervised learning techniquessuch asthe PCA model, Collaborative Filtering,
-        and Cosine Similarity, to establish a cloud ETL pipeline in Microsoft Azure ML Studio to support the Al recommendation system
-        for Advantech's PaaS e-commerce platform.
-        <br/>● Pricing Strategy Optimization – Worked as a project owner to research and develop a model to evaluate the bargaining power
-        between customers and company. Cooperated with the pricing team to set appropriate prices or discounts and maximize our
-        business and revenue growth.
-        <br/>● Project coordinator in the Al Strategy Group – As a core member and the project coordinator in the AI strategic group, worked
-        with the management team on AI-related projects and was responsible for all the projects within the AI domain.
-        <br/>● IT Vocal for Data visualization – As an IT department vocal, I cooperated with the data team to establish a data visualization platform, enabling better insights and decision-making across the organization.
+        ● Al Recommendation ToolDeployment – Utilized unsupervised learning techniquessuch asthe PCA model, Collaborative Filtering, and Cosine Similarity, to establish a cloud ETL pipeline in Microsoft Azure ML Studio to support the Al recommendation system for Advantech's PaaS e-commerce platform.
+        <br/>● Pricing Strategy Optimization – Worked as a project owner to research and develop a model to evaluate the bargaining power between customers and company. Cooperated with the pricing team to set appropriate prices or discounts and maximize our business and revenue growth.
+        <br/>● Project coordinator in the Al Strategy Group – As a core member and the project coordinator in the AI strategic group, worked with the management team on AI-related projects and was responsible for all the projects within the AI domain.
+        <br/>● IT Vocal for Data visualization – As an IT department vocal, I cooperated with the muti-functional team to develop Power Bl and Tableau reports, helping them to make better business decisions.
       </p>
     ),
   },
   {
-    date: 'July 2018 - March 2022',
-    location: 'Gamania Digital Entertainment',
-    title: 'Senior Data Scientist',
+    date: "August 2021 - January 2022",
+    location: "Gamania Co., Ltd",
+    title: "Senior Data Scientist",
     content: (
       <p>
-        ● Analyzed profitability data of mobile games and provided data-driven insights for business decisions.
-        <br />● Reduced costs of using App Annie by web crawling metadata from API resources using R/Python and PostgreSQL.
-        <br />● Developed predictive models and dashboards for game performance monitoring.
-        <br />● Dress Detection System Development – Collaborated with HR teams to develop a machine learning system that automatically
-        inspects employees' attire as they pass by the camera to ensure compliance with company standards.
-        <br />● Credit Card Fraud Detection Project – Used a machine learning program with six algorithms to identify potential fraudulent credit
-        card transactions. This approach saved manual review costs and reduced client inconvenience from unnecessary customer service
-        calls.
+        ● API Integration and Data Reshaping – Used R and Python for web crawling to retrieve data from APIs and then used PostgreSQL to clean and reshape the data, determining which games are the most profitable in our company and assisting the business team on decision making.
+        <br />● Feature Extraction from Low-Quality Images – Used a machine learning GAN model to extract features from low-quality images, allowing us to identify player preferences and enhance the gaming experience.
+      </p>
+    ),
+  },
+  {
+    date: "April 2021 - August 2021",
+    location: "Taiwan Semiconductor Manufacturing Company, Ltd",
+    title: "Supervisor",
+    content: (
+      <p>
+        ● Process Improvement and Quality Control – Produced daily wafer quality reports to track yield, identify rework causes, and improve overall process consistency.
+        <br />● Team Management and Performance Evaluation – Supervised 80 employees with regular performance reviews and coaching, earning recognition with the Best Newcomer, Rising Star, and Plant Manager Awards.
+      </p>
+    ),
+  },
+  {
+    date: "July 2019 - March 2021",
+    location: "CTBC Financial Holding Co., Ltd",
+    title: "Management Associate (Data Engineer)",
+    content: (
+      <p>
+        ● Smile Check-in Project – As the project developer, we used the Yolo V4 model to capture facial expressions, specifically focusing on smiles. This enabled our employees to check in quickly at headquarters by smiling at the camera.
+        <br />● Dress Detection System Development – Collaborated with HR teams to develop a machine learning system that automatically inspects employees' attire as they pass by the camera to ensure compliance with company standards.
+        <br />● Credit Card Fraud Detection Project – Used a machine learning program with six algorithms to identify potential fraudulent credit card transactions. This approach saved manual review costs and reduced client inconvenience from unnecessary customer service calls.
       </p>
     ),
   },
@@ -307,8 +333,8 @@ export const testimonial: TestimonialSection = {
  * Contact section
  */
 export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: 'Reach out to Rita Lin.',
+  headerText: 'Get in Touch',
+  description: 'Reach out to Rita Lin Now!',
   items: [
     {
       type: ContactType.Email,
