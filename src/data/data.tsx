@@ -65,7 +65,7 @@ export const heroData: Hero = {
         registrar and site builder.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, you can catch me training in <strong className="text-stone-100">MMA</strong>, <strong className="text-stone-100">Bouldering</strong>, <strong className="text-stone-100">Music Festival</strong>, <strong className="text-stone-100">Free Diving</strong>, <strong className="text-stone-100">Surfing</strong>, <strong className="text-stone-100">Skateboarding</strong>.
+        In my free time, you can catch me training in <strong className="text-stone-100">MMA</strong>, <strong className="text-stone-100">Boulding</strong>, <strong className="text-stone-100">Music Festival</strong>, <strong className="text-stone-100">Free Diving</strong>, <strong className="text-stone-100">Surfing</strong>, <strong className="text-stone-100">Skateboarding</strong>.
       </p>
     </>
   ),
@@ -109,11 +109,11 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'French',
-        level: 4,
+        level: 5,
       },
       {
         name: 'Spanish',
-        level: 3,
+        level: 4,
       },
     ],
   },
@@ -147,7 +147,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Java',
-        level: 3,
+        level: 4,
       },
     ],
   },
@@ -192,7 +192,7 @@ export const education: TimelineItem[] = [
     title: 'Masters of Business Administration, Master',
     content: (
       <p>
-        GPA 4.09 <br/>
+        GPA 4.09 (92.30) <br/>
         Thesis: An analysis of features of the total revenue of the concerts based on Machine Learning (Support Vector Machine)
       </p>
     ),
@@ -203,7 +203,7 @@ export const experience: TimelineItem[] = [
   {
     date: 'September 2025 - Present',
     location: 'See U Tech Co., Ltd',
-    title: 'Project Manager',
+    title: 'Project Manager / AI Engineer',
     content: (
       <p>
         ●Executed the Ministry of Digital Affairs Innovation Subsidy Project.
