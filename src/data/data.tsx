@@ -228,7 +228,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Digital Art Collection - Park Park Rock - Music Festival',
-    description: 'Original digital artwork created with Procreate. When I was drunk, I climbed on top of someone else's car.',
+    description: 'Original digital artwork created with Procreate. When I was drunk, I climbed on top of someone elses car.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork3,
   },
