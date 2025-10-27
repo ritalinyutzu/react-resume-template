@@ -11,7 +11,6 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.jpg';
-import lusiveImage from '../images/portfolio/lusive-workshop.png';
 import artwork1 from '../images/portfolio/artwork-1.png';
 import artwork2 from '../images/portfolio/artwork-2.png';
 import artwork3 from '../images/portfolio/artwork-3.png';
@@ -29,6 +28,7 @@ import artwork14 from '../images/portfolio/artwork-14.png';
 import artwork15 from '../images/portfolio/artwork-15.png';
 import artwork16 from '../images/portfolio/artwork-16.png';
 import artwork17 from '../images/portfolio/artwork-17.png';
+import lusiveImage from '../images/portfolio/lusive-workshop.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.jpg';
 import {
