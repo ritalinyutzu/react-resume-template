@@ -210,97 +210,97 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Lusive Workshop Official Website',
-    description: 'Designed and developed the official website for Lusive Workshop brand (2023-Present). Full-stack web development including HTML/CSS design, deployment, maintenance, and payment gateway integration. The clothing designs from this website were featured and worn at BlackPink\'s concert in Kaohsiung.',
+    description: 'Designed and developed the official website for Lusive Workshop brand (2023-Present). Full-stack web development including HTML/CSS design, deployment, maintenance, and payment gateway integration. The clothing designs from this website were featured and worn at BlackPink concert in Kaohsiung.',
     url: 'http://www.lusive-workshop.com',
     image: lusiveImage,
   },
   {
-    title: 'Digital Art Collection - Surfing Girl',
-    description: 'Original digital artwork created with Procreate. A girl surfing at Zhongjiao Bay.',
+    title: 'Digital Art Collection - Artwork 1',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork1,
   },
   {
-    title: 'Digital Art Collection - Reunion with my friend',
-    description: 'Original digital artwork created with Procreate. My first digital drawing is a group photo of me and my friends.',
+    title: 'Digital Art Collection - Artwork 2',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork2,
   },
   {
-    title: 'Digital Art Collection - Park Park Rock - Music Festival',
-    description: 'Original digital artwork created with Procreate. When I was drunk, I climbed on top of someone else's car.',
+    title: 'Digital Art Collection - Artwork 3',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork3,
   },
   {
-    title: 'Digital Art Collection - Girl in Bikini',
-    description: 'Original digital artwork created with Procreate. 30-second sketch.',
+    title: 'Digital Art Collection - Artwork 4',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork4,
   },
   {
-    title: 'Digital Art Collection - Commencement',
-    description: 'Original digital artwork created with Procreate. With my best friend Alice, this is our commencement.',
+    title: 'Digital Art Collection - Artwork 5',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork5,
   },
   {
-    title: 'Digital Art Collection - Girl',
-    description: 'Original digital artwork created with Procreate. 30-second sketch.',
+    title: 'Digital Art Collection - Artwork 6',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork6,
   },
   {
-    title: 'Digital Art Collection - Girl',
-    description: 'Original digital artwork created with Procreate. 30-second sketch ',
+    title: 'Digital Art Collection - Artwork 7',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork7,
   },
   {
-    title: 'Digital Art Collection - Love Enviroment',
-    description: 'Original digital artwork created with Procreate. A girl in Australia who loves the environment and the Earth.',
+    title: 'Digital Art Collection - Artwork 8',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork8,
   },
   {
-    title: 'Digital Art Collection - Boy with his lovely doggy',
-    description: 'Original digital artwork created with Procreate. A boy and his favorite Shiba Inu.',
+    title: 'Digital Art Collection - Artwork 9',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork9,
   },
   {
-    title: 'Digital Art Collection - bouldering ',
-    description: 'Original digital artwork created with Procreate. My first bouldering experience.',
+    title: 'Digital Art Collection - Artwork 10',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork10,
   },
   {
-    title: 'Digital Art Collection - Shopping Day',
-    description: 'Original digital artwork created with Procreate. Let's take a selfish in front of the mirror. ',
+    title: 'Digital Art Collection - Artwork 11',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcaving various artistic styles and techniques.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork11,
   },
   {
-    title: 'Digital Art Collection - Rita Lin',
-    description: 'Original digital artwork created with Procreate. My self-portrait.',
+    title: 'Digital Art Collection - Artwork 12',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork12,
   },
   {
-    title: 'Digital Art Collection - Drinking',
-    description: 'Original digital artwork created with Procreate. A girl drinking rye beer.',
+    title: 'Digital Art Collection - Artwork 13',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork13,
   },
   {
-    title: 'Digital Art Collection - One of the Best Day',
-    description: 'Original digital artwork created with Procreate. Let's take a trip to Liuqiu together.',
+    title: 'Digital Art Collection - Artwork 14',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork14,
   },
   {
-    title: 'Digital Art Collection - Megaport Festival',
-    description: 'Original digital artwork created with Procreate. My friends and I attended the 2022 Megaport Festival.',
+    title: 'Digital Art Collection - Artwork 15',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork15,
   },
@@ -368,7 +368,7 @@ export const experience: TimelineItem[] = [
     title: 'Senior AI Engineer / Project Manager',
     content: (
       <p>
-        ● Al Recommendation ToolDeployment – Utilized unsupervised learning techniquessuch asthe PCA model, Collaborative Filtering, and Cosine Similarity, to establish a cloud ETL pipeline in Microsoft Azure ML Studio to support the Al recommendation system for Advantech's PaaS e-commerce platform.
+        ● Al Recommendation ToolDeployment – Utilized unsupervised learning techniquessuch asthe PCA model, Collaborative Filtering, and Cosine Similarity, to establish a cloud ETL pipeline in Microsoft Azure ML Studio to support the Al recommendation system for Advantech PaaS e-commerce platform.
         <br/>● Pricing Strategy Optimization – Worked as a project owner to research and develop a model to evaluate the bargaining power between customers and company. Cooperated with the pricing team to set appropriate prices or discounts and maximize our business and revenue growth.
         <br/>● Project coordinator in the Al Strategy Group – As a core member and the project coordinator in the AI strategic group, worked with the management team on AI-related projects and was responsible for all the projects within the AI domain.
         <br/>● IT Vocal for Data visualization – As an IT department vocal, I cooperated with the muti-functional team to develop Power Bl and Tableau reports, helping them to make better business decisions.
@@ -404,7 +404,7 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         ● Smile Check-in Project – As the project developer, we used the Yolo V4 model to capture facial expressions, specifically focusing on smiles. This enabled our employees to check in quickly at headquarters by smiling at the camera.
-        <br />● Dress Detection System Development – Collaborated with HR teams to develop a machine learning system that automatically inspects employees' attire as they pass by the camera to ensure compliance with company standards.
+        <br />● Dress Detection System Development – Collaborated with HR teams to develop a machine learning system that automatically inspects employees attire as they pass by the camera to ensure compliance with company standards.
         <br />● Credit Card Fraud Detection Project – Used a machine learning program with six algorithms to identify potential fraudulent credit card transactions. This approach saved manual review costs and reduced client inconvenience from unnecessary customer service calls.
       </p>
     ),
@@ -440,7 +440,7 @@ export const certifications: TimelineItem[] = [
     ),
   },
   {
-    date: '2003 & 2010',
+    date: '2024',
     location: 'Olympic Fine Arts Competition',
     title: 'Olympic Fine Arts Bronze Medal',
     content: (
