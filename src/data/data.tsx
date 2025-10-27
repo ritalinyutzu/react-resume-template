@@ -210,7 +210,7 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Lusive Workshop Official Website',
-    description: 'Designed and developed the official website for Lusive Workshop brand (2023-Present). Full-stack web development including HTML/CSS design, deployment, maintenance, and payment gateway integration. The clothing designs from this website were featured and worn at BlackPink\'s concert in Kaohsiung.',
+    description: 'Designed and developed the official website for Lusive Workshop brand (2023-Present). Full-stack web development including HTML/CSS design, deployment, maintenance, and payment gateway integration. The clothing designs from this website were featured and worn at BlackPink concert in Kaohsiung.',
     url: 'http://www.lusive-workshop.com',
     image: lusiveImage,
   },
@@ -276,7 +276,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Digital Art Collection - Shopping Day',
-    description: 'Original digital artwork created with Procreate. Let's take a selfish in front of the mirror. ',
+    description: 'Original digital artwork created with Procreate. Lets take a selfie in front of the mirror.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork11,
   },
@@ -294,7 +294,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Digital Art Collection - One of the Best Day',
-    description: 'Original digital artwork created with Procreate. Let's take a trip to Liuqiu together.',
+    description: 'Original digital artwork created with Procreate. Lets take a trip to Liuqiu together.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork14,
   },
