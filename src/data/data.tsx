@@ -12,6 +12,23 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.jpg';
 import lusiveImage from '../images/portfolio/lusive-workshop.png';
+import artwork1 from '../images/portfolio/artwork-1.png';
+import artwork2 from '../images/portfolio/artwork-2.png';
+import artwork3 from '../images/portfolio/artwork-3.png';
+import artwork4 from '../images/portfolio/artwork-4.png';
+import artwork5 from '../images/portfolio/artwork-5.png';
+import artwork6 from '../images/portfolio/artwork-6.png';
+import artwork7 from '../images/portfolio/artwork-7.png';
+import artwork8 from '../images/portfolio/artwork-8.png';
+import artwork9 from '../images/portfolio/artwork-9.png';
+import artwork10 from '../images/portfolio/artwork-10.png';
+import artwork11 from '../images/portfolio/artwork-11.png';
+import artwork12 from '../images/portfolio/artwork-12.png';
+import artwork13 from '../images/portfolio/artwork-13.png';
+import artwork14 from '../images/portfolio/artwork-14.png';
+import artwork15 from '../images/portfolio/artwork-15.png';
+import artwork16 from '../images/portfolio/artwork-16.png';
+import artwork17 from '../images/portfolio/artwork-17.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.jpg';
 import {
@@ -168,6 +185,23 @@ export const skills: SkillGroup[] = [
       },
     ],
   },
+  {
+    name: 'Design Tools',
+    skills: [
+      {
+        name: 'Adobe Photoshop',
+        level: 10,
+      },
+      {
+        name: 'Adobe Illustrator',
+        level: 10,
+      },
+      {
+        name: 'Procreate',
+        level: 10,
+      },
+    ],
+  },
 ];
 
 /**
@@ -179,6 +213,108 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Designed and developed the official website for Lusive Workshop brand (2023-Present). Full-stack web development including HTML/CSS design, deployment, maintenance, and payment gateway integration. The clothing designs from this website were featured and worn at BlackPink\'s concert in Kaohsiung.',
     url: 'http://www.lusive-workshop.com',
     image: lusiveImage,
+  },
+  {
+    title: 'Digital Art Collection - Artwork 1',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
+    url: 'https://opensea.io/ritalinyutzu',
+    image: artwork1,
+  },
+  {
+    title: 'Digital Art Collection - Artwork 2',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
+    url: 'https://opensea.io/ritalinyutzu',
+    image: artwork2,
+  },
+  {
+    title: 'Digital Art Collection - Artwork 3',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
+    url: 'https://opensea.io/ritalinyutzu',
+    image: artwork3,
+  },
+  {
+    title: 'Digital Art Collection - Artwork 4',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
+    url: 'https://opensea.io/ritalinyutzu',
+    image: artwork4,
+  },
+  {
+    title: 'Digital Art Collection - Artwork 5',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
+    url: 'https://opensea.io/ritalinyutzu',
+    image: artwork5,
+  },
+  {
+    title: 'Digital Art Collection - Artwork 6',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
+    url: 'https://opensea.io/ritalinyutzu',
+    image: artwork6,
+  },
+  {
+    title: 'Digital Art Collection - Artwork 7',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
+    url: 'https://opensea.io/ritalinyutzu',
+    image: artwork7,
+  },
+  {
+    title: 'Digital Art Collection - Artwork 8',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
+    url: 'https://opensea.io/ritalinyutzu',
+    image: artwork8,
+  },
+  {
+    title: 'Digital Art Collection - Artwork 9',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
+    url: 'https://opensea.io/ritalinyutzu',
+    image: artwork9,
+  },
+  {
+    title: 'Digital Art Collection - Artwork 10',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
+    url: 'https://opensea.io/ritalinyutzu',
+    image: artwork10,
+  },
+  {
+    title: 'Digital Art Collection - Artwork 11',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
+    url: 'https://opensea.io/ritalinyutzu',
+    image: artwork11,
+  },
+  {
+    title: 'Digital Art Collection - Artwork 12',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
+    url: 'https://opensea.io/ritalinyutzu',
+    image: artwork12,
+  },
+  {
+    title: 'Digital Art Collection - Artwork 13',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
+    url: 'https://opensea.io/ritalinyutzu',
+    image: artwork13,
+  },
+  {
+    title: 'Digital Art Collection - Artwork 14',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
+    url: 'https://opensea.io/ritalinyutzu',
+    image: artwork14,
+  },
+  {
+    title: 'Digital Art Collection - Artwork 15',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
+    url: 'https://opensea.io/ritalinyutzu',
+    image: artwork15,
+  },
+  {
+    title: 'Digital Art Collection - Artwork 16',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
+    url: 'https://opensea.io/ritalinyutzu',
+    image: artwork16,
+  },
+  {
+    title: 'Digital Art Collection - Artwork 17',
+    description: 'Original digital artwork created with Procreate. Part of a personal collection showcasing various artistic styles and techniques.',
+    url: 'https://opensea.io/ritalinyutzu',
+    image: artwork17,
   },
 ];
 
@@ -300,6 +436,17 @@ export const certifications: TimelineItem[] = [
         Certified in using Google AI (Gemini) in education
         <br/>Valid through: September 2028
         <br/>Demonstrated knowledge, skills, and competencies needed to use Google AI in education
+      </p>
+    ),
+  },
+  {
+    date: '2024',
+    location: 'Olympic Fine Arts Competition',
+    title: 'Olympic Fine Arts Bronze Medal',
+    content: (
+      <p>
+        Awarded Bronze Medal in the Olympic Fine Arts Competition for outstanding artistic achievement
+        <br/>Recognition for excellence in digital art and creative expression
       </p>
     ),
   },
