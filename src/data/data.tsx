@@ -123,14 +123,17 @@ export const skills: SkillGroup[] = [
       {
         name: 'English',
         level: 10,
+        max: 10,
       },
       {
         name: 'French',
         level: 4,
+        max: 10,
       },
       {
         name: 'Spanish',
         level: 3,
+        max: 10,
       },
     ],
   },
@@ -140,14 +143,17 @@ export const skills: SkillGroup[] = [
       {
         name: 'Python',
         level: 9,
+        max: 10,
       },
       {
         name: 'SQL',
         level: 9,
+        max: 10,
       },
       {
         name: 'R',
         level: 8,
+        max: 10,
       },
     ],
   },
@@ -157,14 +163,17 @@ export const skills: SkillGroup[] = [
       {
         name: 'Node.js',
         level: 6,
+        max: 10,
       },
       {
         name: 'PHP',
         level: 6,
+        max: 10,
       },
       {
         name: 'Java',
         level: 3,
+        max: 10,
       },
     ],
   },
@@ -174,14 +183,17 @@ export const skills: SkillGroup[] = [
       {
         name: 'Html',
         level: 7,
+        max: 10,
       },
       {
         name: 'CSS',
         level: 6,
+        max: 10,
       },
       {
         name: 'React',
         level: 6,
+        max: 10,
       },
     ],
   },
@@ -191,14 +203,17 @@ export const skills: SkillGroup[] = [
       {
         name: 'Adobe Photoshop',
         level: 10,
+        max: 10,
       },
       {
         name: 'Adobe Illustrator',
         level: 10,
+        max: 10,
       },
       {
         name: 'Procreate',
         level: 10,
+        max: 10,
       },
     ],
   },
