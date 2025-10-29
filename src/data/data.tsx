@@ -353,7 +353,8 @@ export const education: TimelineItem[] = [
  */
 export const teaching: TeachingSection = {
   sectionName: 'Teaching Experience',
-  description: 'Extensive teaching experience across multiple academic levels at National Sun Yat-sen University (2017-2019)',
+  description:
+    'Extensive teaching experience across multiple academic levels at National Sun Yat-sen University (2017-2019)',
   items: [
     {
       date: '2017 - 2019',

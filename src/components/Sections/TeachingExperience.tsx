@@ -19,21 +19,13 @@ const TeachingExperience: FC<{data: TeachingSection}> = memo(({data}) => {
             <AcademicCapIcon className="h-8 w-8 text-blue-600" />
             <h2 className="text-3xl font-bold text-neutral-800">{sectionName}</h2>
           </div>
-          {description && (
-            <p className="mt-3 text-base text-gray-600 max-w-3xl">{description}</p>
-          )}
+          {description && <p className="mt-3 text-base text-gray-600 max-w-3xl">{description}</p>}
         </div>
 
         <div className="space-y-8">
-          {undergrad.length > 0 && (
-            <TeachingLevel title="Undergraduate Level" items={undergrad} color="blue" />
-          )}
-          {grad.length > 0 && (
-            <TeachingLevel title="Graduate Level (MBA Programs)" items={grad} color="purple" />
-          )}
-          {doctoral.length > 0 && (
-            <TeachingLevel title="Doctoral Level" items={doctoral} color="green" />
-          )}
+          {undergrad.length > 0 && <TeachingLevel title="Undergraduate Level" items={undergrad} color="blue" />}
+          {grad.length > 0 && <TeachingLevel title="Graduate Level (MBA Programs)" items={grad} color="purple" />}
+          {doctoral.length > 0 && <TeachingLevel title="Doctoral Level" items={doctoral} color="green" />}
         </div>
       </div>
     </Section>
@@ -65,11 +57,7 @@ const TeachingLevel: FC<{
       <h3 className="text-xl font-semibold mb-4 text-neutral-800">{title}</h3>
       <div className="space-y-6">
         {items.map((item, index) => (
-          <EnhancedTeachingItem
-            key={`${item.title}-${index}`}
-            item={item}
-            badgeColor={badgeColors[color]}
-          />
+          <EnhancedTeachingItem key={`${item.title}-${index}`} item={item} badgeColor={badgeColors[color]} />
         ))}
       </div>
     </div>
@@ -88,19 +76,13 @@ const EnhancedTeachingItem: FC<{
     <div className="bg-white rounded-md p-4 shadow-sm hover:shadow-md transition-shadow">
       <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2 mb-3">
         <div className="flex-1">
-          <h4 className="text-lg font-bold text-neutral-900">
-            {course}
-          </h4>
+          <h4 className="text-lg font-bold text-neutral-900">{course}</h4>
           <div className="flex flex-wrap items-center gap-2 mt-1">
-            <span className={`inline-block rounded-full px-3 py-1 text-xs font-semibold ${badgeColor}`}>
-              {title}
-            </span>
+            <span className={`inline-block rounded-full px-3 py-1 text-xs font-semibold ${badgeColor}`}>{title}</span>
             <span className="text-sm text-gray-600">{location}</span>
           </div>
         </div>
-        <div className="text-sm font-medium text-gray-500 md:text-right whitespace-nowrap">
-          {date}
-        </div>
+        <div className="text-sm font-medium text-gray-500 md:text-right whitespace-nowrap">{date}</div>
       </div>
 
       <ul className="space-y-2">
