@@ -7,7 +7,6 @@ import Contact from '../components/Sections/Contact';
 import Footer from '../components/Sections/Footer';
 import Hero from '../components/Sections/Hero';
 import Portfolio from '../components/Sections/Portfolio';
-import Projects from '../components/Sections/Projects';
 import Resume from '../components/Sections/Resume';
 import Skills from '../components/Sections/Skills';
 import Testimonials from '../components/Sections/Testimonials';
@@ -23,7 +22,6 @@ const Home: FC = memo(() => {
       <Header />
       <Hero />
       <About />
-      <Projects />
       <Resume />
       <Skills />
       <Portfolio />
