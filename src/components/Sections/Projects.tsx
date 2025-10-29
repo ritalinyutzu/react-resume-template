@@ -1,4 +1,5 @@
 import {FC, memo} from 'react';
+
 import {SectionId} from '../../data/data';
 import Section from '../Layout/Section';
 
@@ -17,12 +18,7 @@ const Projects: FC = memo(() => {
         '平均品質分數 7.5-8.5 / 10',
         '生成速度提升 3-5 倍',
       ],
-      features: [
-        'Lasso 迴歸特徵選擇',
-        '困惑度分析品質控制',
-        '低溫生成策略確保穩定性',
-        '自動篩選高品質題目',
-      ],
+      features: ['Lasso 迴歸特徵選擇', '困惑度分析品質控制', '低溫生成策略確保穩定性', '自動篩選高品質題目'],
     },
     {
       title: 'AI 作文批改系統',
@@ -31,12 +27,7 @@ const Projects: FC = memo(() => {
       tags: ['Python', 'OCR', 'Machine Learning', 'NLP', 'Computer Vision'],
       github: 'https://github.com/ritalinyutzu/ai-essay-grading-system',
       demo: 'https://ai-zuowen-pigai-3idi1ae.gamma.site/',
-      highlights: [
-        'OCR 準確率 90-95%',
-        '處理速度 10-30 秒/篇',
-        '批次處理 50+ 篇作文',
-        '評分一致性 95%+',
-      ],
+      highlights: ['OCR 準確率 90-95%', '處理速度 10-30 秒/篇', '批次處理 50+ 篇作文', '評分一致性 95%+'],
       features: [
         'Tesseract OCR 圖片文字識別',
         '智能圖片旋轉校正',
@@ -53,8 +44,8 @@ const Projects: FC = memo(() => {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           {projects.map((project, index) => (
             <div
-              key={index}
-              className="flex flex-col overflow-hidden rounded-2xl bg-white shadow-lg transition-transform hover:scale-105">
+              className="flex flex-col overflow-hidden rounded-2xl bg-white shadow-lg transition-transform hover:scale-105"
+              key={index}>
               {/* 專案圖片 */}
               <div className="relative h-64 w-full overflow-hidden bg-gradient-to-br from-blue-500 to-purple-600">
                 <div className="flex h-full items-center justify-center">
@@ -71,8 +62,8 @@ const Projects: FC = memo(() => {
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag, tagIndex) => (
                     <span
-                      key={tagIndex}
-                      className="rounded-full bg-blue-100 px-3 py-1 text-xs font-medium text-blue-800">
+                      className="rounded-full bg-blue-100 px-3 py-1 text-xs font-medium text-blue-800"
+                      key={tagIndex}>
                       {tag}
                     </span>
                   ))}
@@ -83,7 +74,7 @@ const Projects: FC = memo(() => {
                   <h4 className="mb-2 font-semibold text-gray-900">核心功能</h4>
                   <ul className="space-y-1 text-sm text-gray-600">
                     {project.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="flex items-start">
+                      <li className="flex items-start" key={featureIndex}>
                         <span className="mr-2 text-blue-500">•</span>
                         {feature}
                       </li>
@@ -96,7 +87,7 @@ const Projects: FC = memo(() => {
                   <h4 className="mb-2 font-semibold text-gray-900">專案成果</h4>
                   <ul className="space-y-1 text-sm text-gray-600">
                     {project.highlights.map((highlight, highlightIndex) => (
-                      <li key={highlightIndex} className="flex items-start">
+                      <li className="flex items-start" key={highlightIndex}>
                         <span className="mr-2 text-green-500">✓</span>
                         {highlight}
                       </li>

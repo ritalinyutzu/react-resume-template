@@ -77,12 +77,16 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Taipei based <strong className="text-stone-100">Senior AI Engineer</strong>, currently working
-        at <strong className="text-stone-100">a technology company</strong> helping build AI LLM related models, writing agile management projects, domain
-        registrar and site builder.
+        I'm a Taipei based <strong className="text-stone-100">Senior AI Engineer</strong>, currently working at{' '}
+        <strong className="text-stone-100">a technology company</strong> helping build AI LLM related models, writing
+        agile management projects, domain registrar and site builder.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, you can catch me training in <strong className="text-stone-100">MMA</strong>, <strong className="text-stone-100">Bouldering</strong>, <strong className="text-stone-100">Music Festival</strong>, <strong className="text-stone-100">Free Diving</strong>, <strong className="text-stone-100">Surfing</strong>, <strong className="text-stone-100">Skateboarding</strong>.
+        In my free time, you can catch me training in <strong className="text-stone-100">MMA</strong>,{' '}
+        <strong className="text-stone-100">Bouldering</strong>,{' '}
+        <strong className="text-stone-100">Music Festival</strong>,{' '}
+        <strong className="text-stone-100">Free Diving</strong>, <strong className="text-stone-100">Surfing</strong>,{' '}
+        <strong className="text-stone-100">Skateboarding</strong>.
       </p>
     </>
   ),
@@ -210,7 +214,8 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Lusive Workshop Official Website',
-    description: 'Designed and developed the official website for Lusive Workshop brand (2023-Present). Full-stack web development including HTML/CSS design, deployment, maintenance, and payment gateway integration. The clothing designs from this website were featured and worn at BlackPink concert in Kaohsiung.',
+    description:
+      'Designed and developed the official website for Lusive Workshop brand (2023-Present). Full-stack web development including HTML/CSS design, deployment, maintenance, and payment gateway integration. The clothing designs from this website were featured and worn at BlackPink concert in Kaohsiung.',
     url: 'http://www.lusive-workshop.com',
     image: lusiveImage,
   },
@@ -222,13 +227,15 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Digital Art Collection - Reunion with my friend',
-    description: 'Original digital artwork created with Procreate. My first digital drawing is a group photo of me and my friends.',
+    description:
+      'Original digital artwork created with Procreate. My first digital drawing is a group photo of me and my friends.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork2,
   },
   {
     title: 'Digital Art Collection - Park Park Rock - Music Festival',
-    description: 'Original digital artwork created with Procreate. When I was drunk, I climbed on top of someone elses car.',
+    description:
+      'Original digital artwork created with Procreate. When I was drunk, I climbed on top of someone elses car.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork3,
   },
@@ -240,7 +247,8 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Digital Art Collection - Commencement',
-    description: 'Original digital artwork created with Procreate. With my best friend Alice, this is our commencement.',
+    description:
+      'Original digital artwork created with Procreate. With my best friend Alice, this is our commencement.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork5,
   },
@@ -258,7 +266,8 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Digital Art Collection - Love Enviroment',
-    description: 'Original digital artwork created with Procreate. A girl in Australia who loves the environment and the Earth.',
+    description:
+      'Original digital artwork created with Procreate. A girl in Australia who loves the environment and the Earth.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork8,
   },
@@ -300,7 +309,8 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Digital Art Collection - Megaport Festival',
-    description: 'Original digital artwork created with Procreate. My friends and I attended the 2022 Megaport Festival.',
+    description:
+      'Original digital artwork created with Procreate. My friends and I attended the 2022 Megaport Festival.',
     url: 'https://opensea.io/ritalinyutzu',
     image: artwork15,
   },
@@ -328,8 +338,9 @@ export const education: TimelineItem[] = [
     title: 'Masters of Business Administration, Master',
     content: (
       <p>
-        GPA 4.09 <br/>
-        Thesis: An analysis of features of the total revenue of the concerts based on Machine Learning (Support Vector Machine)
+        GPA 4.09 <br />
+        Thesis: An analysis of features of the total revenue of the concerts based on Machine Learning (Support Vector
+        Machine)
       </p>
     ),
   },
@@ -343,8 +354,8 @@ export const experience: TimelineItem[] = [
     content: (
       <p>
         ● Executed the Ministry of Digital Affairs Innovation Subsidy Project.
-        <br/>● Built an intelligent exam question bank using Python.
-        <br/>● Implemented process management by automating scheduling across the examination system.
+        <br />● Built an intelligent exam question bank using Python.
+        <br />● Implemented process management by automating scheduling across the examination system.
       </p>
     ),
   },
@@ -354,11 +365,18 @@ export const experience: TimelineItem[] = [
     title: 'Project Manager / Quality Assurance Engineer',
     content: (
       <p>
-        ● SST AI Image Recognition: Leading the implementation of an AI image recognition system, automating dental image labeling and optimizing clinical workflows.
-        <br/>● Applied Science and Technology Union AI Image Recognition: Coordinate cross-functional teams to build an AI-based medical image recognition system supporting dental diagnostics and clinical applications.
-        <br/>● Clinic Profile Data Import for Allied Clinics: Planning and executing clinic profile data import processes, enabling rapid system onboarding across multiple allied clinics.
-        <br/>● WebHIS Billing Module Development and Data Management: Driving the development and testing of the WebHIS billing module, improving healthcare cost settlement efficiency and accuracy, and leading the implementation of the master data management module, enhancing clinic operations and patient data integrity.
-        <br/>● Software Testing Plan – Unit Testing and Integration Testing: Designing and executing unit test plans to ensure functional accuracy and quality consistency across system modules, also conduct integration testing and prepare test reports, validating cross-system stability and reducing release risks.
+        ● SST AI Image Recognition: Leading the implementation of an AI image recognition system, automating dental
+        image labeling and optimizing clinical workflows.
+        <br />● Applied Science and Technology Union AI Image Recognition: Coordinate cross-functional teams to build an
+        AI-based medical image recognition system supporting dental diagnostics and clinical applications.
+        <br />● Clinic Profile Data Import for Allied Clinics: Planning and executing clinic profile data import
+        processes, enabling rapid system onboarding across multiple allied clinics.
+        <br />● WebHIS Billing Module Development and Data Management: Driving the development and testing of the WebHIS
+        billing module, improving healthcare cost settlement efficiency and accuracy, and leading the implementation of
+        the master data management module, enhancing clinic operations and patient data integrity.
+        <br />● Software Testing Plan – Unit Testing and Integration Testing: Designing and executing unit test plans to
+        ensure functional accuracy and quality consistency across system modules, also conduct integration testing and
+        prepare test reports, validating cross-system stability and reducing release risks.
       </p>
     ),
   },
@@ -368,44 +386,62 @@ export const experience: TimelineItem[] = [
     title: 'Senior AI Engineer / Project Manager',
     content: (
       <p>
-        ● Al Recommendation ToolDeployment – Utilized unsupervised learning techniquessuch asthe PCA model, Collaborative Filtering, and Cosine Similarity, to establish a cloud ETL pipeline in Microsoft Azure ML Studio to support the Al recommendation system for Advantech's PaaS e-commerce platform.
-        <br/>● Pricing Strategy Optimization – Worked as a project owner to research and develop a model to evaluate the bargaining power between customers and company. Cooperated with the pricing team to set appropriate prices or discounts and maximize our business and revenue growth.
-        <br/>● Project coordinator in the Al Strategy Group – As a core member and the project coordinator in the AI strategic group, worked with the management team on AI-related projects and was responsible for all the projects within the AI domain.
-        <br/>● IT Vocal for Data visualization – As an IT department vocal, I cooperated with the muti-functional team to develop Power Bl and Tableau reports, helping them to make better business decisions.
+        ● Al Recommendation ToolDeployment – Utilized unsupervised learning techniquessuch asthe PCA model,
+        Collaborative Filtering, and Cosine Similarity, to establish a cloud ETL pipeline in Microsoft Azure ML Studio
+        to support the Al recommendation system for Advantech's PaaS e-commerce platform.
+        <br />● Pricing Strategy Optimization – Worked as a project owner to research and develop a model to evaluate
+        the bargaining power between customers and company. Cooperated with the pricing team to set appropriate prices
+        or discounts and maximize our business and revenue growth.
+        <br />● Project coordinator in the Al Strategy Group – As a core member and the project coordinator in the AI
+        strategic group, worked with the management team on AI-related projects and was responsible for all the projects
+        within the AI domain.
+        <br />● IT Vocal for Data visualization – As an IT department vocal, I cooperated with the muti-functional team
+        to develop Power Bl and Tableau reports, helping them to make better business decisions.
       </p>
     ),
   },
   {
-    date: "August 2021 - January 2022",
-    location: "Gamania Co., Ltd",
-    title: "Senior Data Scientist",
+    date: 'August 2021 - January 2022',
+    location: 'Gamania Co., Ltd',
+    title: 'Senior Data Scientist',
     content: (
       <p>
-        ● API Integration and Data Reshaping – Used R and Python for web crawling to retrieve data from APIs and then used PostgreSQL to clean and reshape the data, determining which games are the most profitable in our company and assisting the business team on decision making.
-        <br />● Feature Extraction from Low-Quality Images – Used a machine learning GAN model to extract features from low-quality images, allowing us to identify player preferences and enhance the gaming experience.
+        ● API Integration and Data Reshaping – Used R and Python for web crawling to retrieve data from APIs and then
+        used PostgreSQL to clean and reshape the data, determining which games are the most profitable in our company
+        and assisting the business team on decision making.
+        <br />● Feature Extraction from Low-Quality Images – Used a machine learning GAN model to extract features from
+        low-quality images, allowing us to identify player preferences and enhance the gaming experience.
       </p>
     ),
   },
   {
-    date: "April 2021 - August 2021",
-    location: "Taiwan Semiconductor Manufacturing Company, Ltd",
-    title: "Supervisor",
+    date: 'April 2021 - August 2021',
+    location: 'Taiwan Semiconductor Manufacturing Company, Ltd',
+    title: 'Supervisor',
     content: (
       <p>
-        ● Process Improvement and Quality Control – Produced daily wafer quality reports to track yield, identify rework causes, and improve overall process consistency.
-        <br />● Team Management and Performance Evaluation – Supervised 80 employees with regular performance reviews and coaching, earning recognition with the Best Newcomer, Rising Star, and Plant Manager Awards.
+        ● Process Improvement and Quality Control – Produced daily wafer quality reports to track yield, identify rework
+        causes, and improve overall process consistency.
+        <br />● Team Management and Performance Evaluation – Supervised 80 employees with regular performance reviews
+        and coaching, earning recognition with the Best Newcomer, Rising Star, and Plant Manager Awards.
       </p>
     ),
   },
   {
-    date: "July 2019 - March 2021",
-    location: "CTBC Financial Holding Co., Ltd",
-    title: "Management Associate / Data Engineer ",
+    date: 'July 2019 - March 2021',
+    location: 'CTBC Financial Holding Co., Ltd',
+    title: 'Management Associate / Data Engineer ',
     content: (
       <p>
-        ● Smile Check-in Project – As the project developer, we used the Yolo V4 model to capture facial expressions, specifically focusing on smiles. This enabled our employees to check in quickly at headquarters by smiling at the camera.
-        <br />● Dress Detection System Development – Collaborated with HR teams to develop a machine learning system that automatically inspects employees' attire as they pass by the camera to ensure compliance with company standards.
-        <br />● Credit Card Fraud Detection Project – Used a machine learning program with six algorithms to identify potential fraudulent credit card transactions. This approach saved manual review costs and reduced client inconvenience from unnecessary customer service calls.
+        ● Smile Check-in Project – As the project developer, we used the Yolo V4 model to capture facial expressions,
+        specifically focusing on smiles. This enabled our employees to check in quickly at headquarters by smiling at
+        the camera.
+        <br />● Dress Detection System Development – Collaborated with HR teams to develop a machine learning system
+        that automatically inspects employees' attire as they pass by the camera to ensure compliance with company
+        standards.
+        <br />● Credit Card Fraud Detection Project – Used a machine learning program with six algorithms to identify
+        potential fraudulent credit card transactions. This approach saved manual review costs and reduced client
+        inconvenience from unnecessary customer service calls.
       </p>
     ),
   },
@@ -421,9 +457,12 @@ export const certifications: TimelineItem[] = [
     title: 'Google Project Management Professional Certificate',
     content: (
       <p>
-        Completed 7-course professional certificate covering foundations, initiation, planning, execution, and agile project management
-        <br/>Credential ID: ZVO1YI29336N
-        <br/>Skills: Traditional & Agile Project Management, Project Planning, Risk Management
+        Completed 7-course professional certificate covering foundations, initiation, planning, execution, and agile
+        project management
+        <br />
+        Credential ID: ZVO1YI29336N
+        <br />
+        Skills: Traditional & Agile Project Management, Project Planning, Risk Management
       </p>
     ),
   },
@@ -434,8 +473,10 @@ export const certifications: TimelineItem[] = [
     content: (
       <p>
         Certified in using Google AI (Gemini) in education
-        <br/>Valid through: September 2028
-        <br/>Demonstrated knowledge, skills, and competencies needed to use Google AI in education
+        <br />
+        Valid through: September 2028
+        <br />
+        Demonstrated knowledge, skills, and competencies needed to use Google AI in education
       </p>
     ),
   },
@@ -446,7 +487,8 @@ export const certifications: TimelineItem[] = [
     content: (
       <p>
         Awarded Bronze Medal in the Olympic Fine Arts Competition for outstanding artistic achievement
-        <br/>Recognition for excellence in digital art and creative expression
+        <br />
+        Recognition for excellence in digital art and creative expression
       </p>
     ),
   },
