@@ -40,6 +40,7 @@ import {
   PortfolioItem,
   SkillGroup,
   Social,
+  TeachingSection,
   TestimonialSection,
   TimelineItem,
 } from './dataDef';
@@ -61,6 +62,7 @@ export const SectionId = {
   Contact: 'contact',
   Portfolio: 'portfolio',
   Resume: 'resume',
+  Teaching: 'teaching',
   Skills: 'skills',
   Stats: 'stats',
   Testimonials: 'testimonials',
@@ -345,6 +347,94 @@ export const education: TimelineItem[] = [
     ),
   },
 ];
+
+/**
+ * Teaching Experience section
+ */
+export const teaching: TeachingSection = {
+  sectionName: 'Teaching Experience',
+  description: 'Extensive teaching experience across multiple academic levels at National Sun Yat-sen University (2017-2019)',
+  items: [
+    {
+      date: '2017 - 2019',
+      location: 'National Sun Yat-sen University',
+      title: 'Teaching Assistant',
+      level: 'Undergraduate',
+      course: 'Economics',
+      duties: [
+        'Delivered lectures to classes of 40-60 students on microeconomics and macroeconomics',
+        'Designed comprehensive course materials including lecture slides and problem sets',
+        'Held weekly office hours providing individualized academic support',
+        'Graded assignments, exams, and provided detailed constructive feedback',
+      ],
+    },
+    {
+      date: '2017 - 2019',
+      location: 'National Sun Yat-sen University',
+      title: 'Teaching Assistant',
+      level: 'Undergraduate',
+      course: 'Statistics',
+      duties: [
+        'Conducted lectures on statistical theory, hypothesis testing, and regression analysis',
+        'Guided students through data analysis using R and SPSS statistical software',
+        'Developed problem sets and exam questions aligned with learning objectives',
+        'Provided one-on-one tutoring sessions for students struggling with concepts',
+      ],
+    },
+    {
+      date: '2017 - 2019',
+      location: 'National Sun Yat-sen University',
+      title: 'Teaching Assistant',
+      level: 'Undergraduate',
+      course: 'Calculus',
+      duties: [
+        'Taught fundamental calculus concepts including limits, derivatives, and integrals',
+        'Led comprehensive review sessions before midterm and final examinations',
+        'Created supplementary instructional materials for complex mathematical topics',
+        'Collaborated with professor on curriculum development and assessment design',
+      ],
+    },
+    {
+      date: '2017 - 2019',
+      location: 'National Sun Yat-sen University',
+      title: 'Teaching Assistant',
+      level: 'Graduate (EMBA)',
+      course: 'Managerial Economics',
+      duties: [
+        'Delivered advanced lectures on managerial economics to executive MBA students',
+        'Facilitated engaging case study discussions and collaborative group projects',
+        'Adapted teaching methodologies to suit working professionals with diverse backgrounds',
+        'Integrated real-world business scenarios and current economic issues into coursework',
+      ],
+    },
+    {
+      date: '2017 - 2019',
+      location: 'National Sun Yat-sen University',
+      title: 'Teaching Assistant',
+      level: 'Graduate (IBMBA)',
+      course: 'Managerial Economics',
+      duties: [
+        'Conducted all lectures entirely in English for international MBA students',
+        'Developed culturally diverse teaching materials appropriate for global context',
+        'Managed cross-cultural classroom dynamics and facilitated international discussions',
+        'Provided comprehensive academic support to students from various countries and backgrounds',
+      ],
+    },
+    {
+      date: '2017 - 2019',
+      location: 'National Sun Yat-sen University',
+      title: 'Private Tutor',
+      level: 'Doctoral',
+      course: 'Game Theory',
+      duties: [
+        'Provided intensive individualized instruction in advanced game theory concepts',
+        'Assisted doctoral candidates with dissertation research and complex problem-solving',
+        'Reviewed and provided critical feedback on academic papers and research proposals',
+        'Prepared students comprehensively for doctoral qualifying examinations',
+      ],
+    },
+  ],
+};
 
 export const experience: TimelineItem[] = [
   {
