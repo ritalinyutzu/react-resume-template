@@ -3,7 +3,8 @@ import classNames from 'classnames';
 import {FC, memo} from 'react';
 
 import {contact, SectionId} from '../../../data/data';
-import type {ContactType, ContactValue} from '../../../data/dataDef';
+import {ContactType} from '../../../data/dataDef';
+import type {ContactValue} from '../../../data/dataDef';
 import FacebookIcon from '../../Icon/FacebookIcon';
 import GithubIcon from '../../Icon/GithubIcon';
 import InstagramIcon from '../../Icon/InstagramIcon';
@@ -45,7 +46,7 @@ const Contact: FC = memo(() => {
                   <div key={srLabel}>
                     <dt className="sr-only">{srLabel}</dt>
                     <dd className="flex items-center">
-                      <a
+                      
                         className={classNames(
                           '-m-2 flex rounded-md p-2 text-neutral-300 hover:text-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500',
                           {'hover:text-white': href},
