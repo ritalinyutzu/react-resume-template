@@ -1,6 +1,5 @@
-import {FC, memo} from 'react';
-
 import {AcademicCapIcon} from '@heroicons/react/24/outline';
+import {FC, memo} from 'react';
 
 import {TeachingItem, TeachingSection} from '../../data/dataDef';
 import Section from '../Layout/Section';
