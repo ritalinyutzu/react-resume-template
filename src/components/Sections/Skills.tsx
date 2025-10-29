@@ -1,7 +1,7 @@
 import {FC, memo, PropsWithChildren} from 'react';
 
 import {skills} from '../../data/data';
-import {Skill as SkillType, SkillGroup as SkillGroupType} from '../../data/dataDef';
+import type {Skill as SkillType, SkillGroup as SkillGroupType} from '../../data/dataDef';
 
 const Skills: FC = memo(() => {
   return (
