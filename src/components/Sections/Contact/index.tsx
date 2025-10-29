@@ -52,6 +52,7 @@ const Contact: FC = memo(() => {
                           {'hover:text-white': href},
                         )}
                         href={href}
+                        rel="noopener noreferrer"
                         target="_blank">
                         <Icon aria-hidden="true" className="h-4 w-4 flex-shrink-0 text-neutral-100 sm:h-5 sm:w-5" />
                         <span className="ml-3 text-sm sm:text-base">{text}</span>
