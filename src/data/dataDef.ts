@@ -1,6 +1,5 @@
 import {StaticImageData} from 'next/image';
 import {FC, ForwardRefExoticComponent, SVGProps} from 'react';
-
 import {IconProps} from '../components/Icon/Icon';
 
 export interface HomepageMeta {
@@ -61,7 +60,6 @@ export interface Stat {
 /**
  * Skills section
  */
-
 export interface Skill {
   name: string;
   level: number;
@@ -91,6 +89,24 @@ export interface TimelineItem {
   location: string;
   title: string;
   content: JSX.Element;
+}
+
+/**
+ * Teaching Experience section
+ */
+export interface TeachingItem {
+  date: string;
+  location: string;
+  title: string;
+  level: string;
+  course: string;
+  duties: string[];
+}
+
+export interface TeachingSection {
+  sectionName: string;
+  description?: string;
+  items: TeachingItem[];
 }
 
 /**
