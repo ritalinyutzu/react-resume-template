@@ -1,6 +1,6 @@
 import {FC, memo} from 'react';
 
-import {TeachingSection, TeachingItem} from '../../data/dataDef';
+import {TeachingItem, TeachingSection} from '../../data/dataDef';
 import Section from '../Layout/Section';
 
 const TeachingExperience: FC<{data: TeachingSection}> = memo(({data}) => {
@@ -15,7 +15,7 @@ const TeachingExperience: FC<{data: TeachingSection}> = memo(({data}) => {
         </div>
         <div className="flex flex-col gap-y-8 py-8">
           {items.map((item, index) => (
-            <TeachingItem key={index} item={item} />
+            <TeachingItem item={item} key={index} />
           ))}
         </div>
       </div>
