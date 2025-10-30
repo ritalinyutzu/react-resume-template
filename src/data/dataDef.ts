@@ -148,3 +148,21 @@ export interface Social {
   Icon: FC<IconProps>;
   href: string;
 }
+
+/**
+ * Teaching Experience section
+ */
+export interface TeachingItem {
+  date: string;
+  location: string;
+  title: string;
+  level: string;
+  course: string;
+  duties: string[];
+}
+
+export interface TeachingSection {
+  sectionName: string;
+  description?: string;
+  items: TeachingItem[];
+}

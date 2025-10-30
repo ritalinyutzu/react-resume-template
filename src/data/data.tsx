@@ -40,6 +40,7 @@ import {
   PortfolioItem,
   SkillGroup,
   Social,
+  TeachingSection,
   TestimonialSection,
   TimelineItem,
 } from './dataDef';
@@ -61,6 +62,7 @@ export const SectionId = {
   Contact: 'contact',
   Portfolio: 'portfolio',
   Resume: 'resume',
+  Teaching: 'teaching',
   Skills: 'skills',
   Stats: 'stats',
   Testimonials: 'testimonials',
@@ -446,6 +448,95 @@ export const experience: TimelineItem[] = [
     ),
   },
 ];
+
+/**
+ * Teaching Experience section
+ */
+export const teaching: TeachingSection = {
+  sectionName: 'Teaching Experience',
+  description:
+    'Extensive teaching and mentoring experience across multiple levels and disciplines at National Sun Yat-sen University.',
+  items: [
+    {
+      date: '2017 - 2019',
+      location: 'National Sun Yat-sen University',
+      title: 'Teaching Assistant',
+      level: 'Undergraduate',
+      course: 'Economics',
+      duties: [
+        'Conducted lectures and led discussion sections for undergraduate economics courses',
+        'Developed and graded assignments, quizzes, and examinations',
+        'Provided office hours and one-on-one tutoring to support student learning',
+        'Assisted professor with course material preparation and curriculum development',
+      ],
+    },
+    {
+      date: '2017 - 2019',
+      location: 'National Sun Yat-sen University',
+      title: 'Teaching Assistant',
+      level: 'Undergraduate',
+      course: 'Statistics',
+      duties: [
+        'Led weekly lab sessions demonstrating statistical software and data analysis techniques',
+        'Explained complex statistical concepts and probability theory to undergraduate students',
+        'Graded homework assignments and provided detailed feedback on problem-solving approaches',
+        'Held regular office hours to assist students with coursework and exam preparation',
+      ],
+    },
+    {
+      date: '2017 - 2019',
+      location: 'National Sun Yat-sen University',
+      title: 'Teaching Assistant',
+      level: 'Undergraduate',
+      course: 'Calculus',
+      duties: [
+        'Conducted problem-solving sessions and reviewed key calculus concepts',
+        'Assisted students in understanding differentiation, integration, and limit theories',
+        'Graded exams and homework while ensuring consistent and fair evaluation standards',
+        'Provided supplementary materials and practice problems for exam preparation',
+      ],
+    },
+    {
+      date: '2017 - 2019',
+      location: 'National Sun Yat-sen University',
+      title: 'Teaching Assistant',
+      level: 'Graduate (EMBA)',
+      course: 'Managerial Economics',
+      duties: [
+        'Supported executive MBA students with advanced economic concepts and business applications',
+        'Facilitated case study discussions and real-world business scenario analyses',
+        'Provided insights on applying economic theory to strategic business decisions',
+        'Integrated real-world business scenarios and current economic issues into coursework',
+      ],
+    },
+    {
+      date: '2017 - 2019',
+      location: 'National Sun Yat-sen University',
+      title: 'Teaching Assistant',
+      level: 'Graduate (IBMBA)',
+      course: 'Managerial Economics',
+      duties: [
+        'Conducted all lectures entirely in English for international MBA students',
+        'Developed culturally diverse teaching materials appropriate for global context',
+        'Managed cross-cultural classroom dynamics and facilitated international discussions',
+        'Provided comprehensive academic support to students from various countries and backgrounds',
+      ],
+    },
+    {
+      date: '2017 - 2019',
+      location: 'National Sun Yat-sen University',
+      title: 'Private Tutor',
+      level: 'Doctoral',
+      course: 'Game Theory',
+      duties: [
+        'Provided intensive individualized instruction in advanced game theory concepts',
+        'Assisted doctoral candidates with dissertation research and complex problem-solving',
+        'Reviewed and provided critical feedback on academic papers and research proposals',
+        'Prepared students comprehensively for doctoral qualifying examinations',
+      ],
+    },
+  ],
+};
 
 /**
  * Certification section
