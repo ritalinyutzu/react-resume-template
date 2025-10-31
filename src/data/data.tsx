@@ -216,6 +216,20 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    title: 'Intelligent Question Generation System 2.0',
+    description:
+      'A scientific question generation system utilizing Lasso Regression, Perplexity metrics, and Low Temperature sampling for quality-controlled content creation. The system features Lasso optimization for feature selection, difficulty analysis and quality control, and low-temperature generation ensuring stability. It automatically filters high-quality questions, achieving 60% API cost reduction compared to traditional methods, 40-50% question pass rate (difficulty < 50), average quality scores of 7.5-8.5/10, and 3-5x generation speed improvement. Built with Python, Machine Learning, NLP, and Lasso Regression techniques.',
+    url: 'https://github.com/ritalinyutzu',
+    image: mobileSentimentImage,
+  },
+  {
+    title: 'AI Essay Grading System',
+    description:
+      'An advanced machine learning-based OCR system for automated Chinese essay grading and evaluation. Features include Tesseract OCR for image-to-text recognition, intelligent image rotation correction, multi-dimensional scoring across content, structure, grammar, and word usage, plus machine learning model training for continuous prediction improvement. The system achieves 90-95% OCR accuracy, processes essays in 10-30 seconds, handles batch processing of 50+ essays, and maintains 95%+ grading accuracy. Implemented using Python, OCR, Machine Learning, NLP, and Computer Vision technologies.',
+    url: 'https://github.com/ritalinyutzu',
+    image: mobileSentimentImage,
+  },
+  {
     title: 'Lusive Workshop Official Website',
     description:
       'Designed and developed the official website for Lusive Workshop brand (2023-Present). Full-stack web development including HTML/CSS design, deployment, maintenance, and payment gateway integration. The clothing designs from this website were featured and worn at BlackPink concert in Kaohsiung.',
