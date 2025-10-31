@@ -225,14 +225,14 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Intelligent Question Generation System 2.0',
     description:
       'An intelligent test question generation and quality control system using Lasso Regression + Perplexity + Low Temperature technology. Implements Lasso regression for feature selection, perplexity analysis for quality control, low-temperature generation strategies to ensure stability, and automatic filtering of high-quality questions. Reduces API costs by 60% compared to traditional methods, achieves question pass rate of 40-50%, maintains average quality score of 7.5-8.5/10, and improves generation speed by 3-5x.',
-    url: 'https://intelligent-question-sys-5rb4j89.gamma.site/',
+    url: '#',
     image: artwork1,
   },
   {
     title: 'AI Essay Grading System',
     description:
       'An AI-powered automatic essay grading system for Chinese compositions, built on machine learning and OCR technology. Features include Tesseract OCR for text recognition from images, intelligent image rotation correction, multi-dimensional scoring (content, structure, grammar, and vocabulary), and machine learning model training and inference. Achieves OCR accuracy of 90-95%, processing speed of 10-30 seconds per essay, batch processing capacity of 50+ essays, and scoring consistency of 95%+.',
-    url: 'https://ai-zuowen-pigai-3idi1ae.gamma.site/',
+    url: '#',
     image: artwork2,
   },
   {
