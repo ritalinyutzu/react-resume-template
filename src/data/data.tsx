@@ -29,6 +29,7 @@ import artwork15 from '../images/portfolio/artwork/artwork-15.jpg';
 import artwork16 from '../images/portfolio/artwork/artwork-16.jpg';
 import artwork17 from '../images/portfolio/artwork/artwork-17.jpg';
 import lusiveImage from '../images/portfolio/lusive-workshop.png';
+import mobileSentimentImage from '../images/portfolio/mobile-sentiment.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.jpg';
 import {
@@ -220,6 +221,13 @@ export const portfolioItems: PortfolioItem[] = [
       'Designed and developed the official website for Lusive Workshop brand (2023-Present). Full-stack web development including HTML/CSS design, deployment, maintenance, and payment gateway integration. The clothing designs from this website were featured and worn at BlackPink concert in Kaohsiung.',
     url: 'http://www.lusive-workshop.com',
     image: lusiveImage,
+  },
+  {
+    title: 'Mobile Reviews Sentiment Analysis',
+    description:
+      'An AI-powered sentiment analysis system for mobile phone reviews that automatically analyzes user sentiment trends and provides data visualization with deep insights. Utilizing Natural Language Processing (NLP) techniques to understand real consumer feedback on different mobile brands and models. The system employs advanced machine learning algorithms to accurately identify positive, negative, and neutral sentiments, helping businesses better understand market trends and customer needs. Built with Python, implementing state-of-the-art NLP models for comprehensive sentiment analysis and real-time data processing.',
+    url: 'https://mobile-reviews-sentiment-whmqxyj.gamma.site/',
+    image: mobileSentimentImage,
   },
   {
     title: 'Digital Art Collection - Surfing Girl',
