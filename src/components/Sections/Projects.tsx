@@ -6,33 +6,83 @@ import Section from '../Layout/Section';
 const Projects: FC = memo(() => {
   const projects = [
     {
-      title: '智慧命題系統 2.0',
-      description: '使用 Lasso Regression + Perplexity + Low Temperature 的科學化題目生成與品質控制系統',
+      title: 'Intelligent Question Generation System 2.0',
+      description: 'An intelligent test question generation and quality control system using Lasso Regression + Perplexity + Low Temperature technology',
       image: '/images/portfolio/intelligent-question-system.jpg',
       tags: ['Python', 'Machine Learning', 'NLP', 'Lasso Regression'],
       github: 'https://github.com/ritalinyutzu/intelligent-question-system',
       demo: 'https://intelligent-question-sys-5rb4j89.gamma.site/',
       highlights: [
-        '相較傳統方法降低 60% API 成本',
-        '題目通過率 40-50%（困惑度 < 50）',
-        '平均品質分數 7.5-8.5 / 10',
-        '生成速度提升 3-5 倍',
+        'Reduces API costs by 60% compared to traditional methods',
+        'Question pass rate 40-50% (perplexity < 50)',
+        'Average quality score 7.5-8.5/10',
+        'Generation speed improved 3-5x',
       ],
-      features: ['Lasso 迴歸特徵選擇', '困惑度分析品質控制', '低溫生成策略確保穩定性', '自動篩選高品質題目'],
+      features: [
+        'Lasso regression for feature selection',
+        'Perplexity analysis for quality control',
+        'Low-temperature generation strategies to ensure stability',
+        'Automatic filtering of high-quality questions',
+      ],
     },
     {
-      title: 'AI 作文批改系統',
-      description: '基於機器學習與 OCR 的中文作文自動評分系統',
+      title: 'AI Essay Grading System',
+      description: 'An AI-powered automatic essay grading system for Chinese compositions, built on machine learning and OCR technology',
       image: '/images/portfolio/ai-essay-grading.jpg',
       tags: ['Python', 'OCR', 'Machine Learning', 'NLP', 'Computer Vision'],
       github: 'https://github.com/ritalinyutzu/ai-essay-grading-system',
       demo: 'https://ai-zuowen-pigai-3idi1ae.gamma.site/',
-      highlights: ['OCR 準確率 90-95%', '處理速度 10-30 秒/篇', '批次處理 50+ 篇作文', '評分一致性 95%+'],
+      highlights: [
+        'OCR accuracy 90-95%',
+        'Processing speed 10-30 seconds per essay',
+        'Batch processing capacity 50+ essays',
+        'Scoring consistency 95%+',
+      ],
       features: [
-        'Tesseract OCR 圖片文字識別',
-        '智能圖片旋轉校正',
-        '多維度評分（內容、結構、文法、用詞）',
-        '機器學習模型訓練與預測',
+        'Tesseract OCR for text recognition from images',
+        'Intelligent image rotation correction',
+        'Multi-dimensional scoring (content, structure, grammar, vocabulary)',
+        'Machine learning model training and inference',
+      ],
+    },
+    {
+      title: 'Mobile Reviews Sentiment Analysis',
+      description: 'An AI-powered sentiment analysis system that automatically analyzes user sentiment trends and provides data visualization with deep insights',
+      image: '/images/portfolio/mobile-reviews-sentiment.jpg',
+      tags: ['Python', 'NLP', 'Machine Learning', 'Data Visualization'],
+      github: 'https://github.com/ritalinyutzu/mobile-reviews-sentiment',
+      demo: 'https://mobile-reviews-sentiment-whmqxyj.gamma.site/',
+      highlights: [
+        'Real-time sentiment classification',
+        'Support for multiple mobile brands',
+        'Interactive data visualization',
+        'Comprehensive trend analysis',
+      ],
+      features: [
+        'Natural Language Processing (NLP) techniques',
+        'Advanced machine learning algorithms',
+        'Positive, negative, and neutral sentiment identification',
+        'Market trends and customer needs analysis',
+      ],
+    },
+    {
+      title: 'Semiconductor Manufacturing Defect Prediction',
+      description: 'A comprehensive machine learning project for predicting semiconductor manufacturing defects with 91.4% accuracy',
+      image: '/images/portfolio/semiconductor-defect.jpg',
+      tags: ['Python', 'Machine Learning', 'XGBoost', 'Data Science'],
+      github: 'https://github.com/ritalinyutzu/semiconductor-defect-prediction',
+      demo: 'https://semiconductor-defect-pre-onoprbx.gamma.site/',
+      highlights: [
+        'Prediction accuracy: 91.4%',
+        'Analyzes 590 production parameters',
+        'Processes 1,567 manufacturing records',
+        'Complete end-to-end ML pipeline',
+      ],
+      features: [
+        'KNN, XGBoost, Random Forest algorithms',
+        'PCA dimensionality reduction (440 to 135 features)',
+        'Handles imbalanced datasets (14.07:1 ratio)',
+        'ROC curve analysis and confusion matrix visualization',
       ],
     },
   ];
@@ -40,13 +90,13 @@ const Projects: FC = memo(() => {
   return (
     <Section className="bg-neutral-100" sectionId={SectionId.Portfolio}>
       <div className="flex flex-col gap-y-8">
-        <h2 className="self-center text-xl font-bold text-black">專案作品</h2>
+        <h2 className="self-center text-xl font-bold text-black">Projects</h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           {projects.map((project, index) => (
             <div
               className="flex flex-col overflow-hidden rounded-2xl bg-white shadow-lg transition-transform hover:scale-105"
               key={index}>
-              {/* 專案圖片 */}
+              {/* Project Image */}
               <div className="relative h-64 w-full overflow-hidden bg-gradient-to-br from-blue-500 to-purple-600">
                 <div className="flex h-full items-center justify-center">
                   <div className="text-center text-white">
@@ -56,9 +106,9 @@ const Projects: FC = memo(() => {
                 </div>
               </div>
 
-              {/* 專案內容 */}
+              {/* Project Content */}
               <div className="flex flex-col gap-4 p-6">
-                {/* 標籤 */}
+                {/* Tags */}
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag, tagIndex) => (
                     <span
@@ -69,9 +119,9 @@ const Projects: FC = memo(() => {
                   ))}
                 </div>
 
-                {/* 核心功能 */}
+                {/* Core Features */}
                 <div>
-                  <h4 className="mb-2 font-semibold text-gray-900">核心功能</h4>
+                  <h4 className="mb-2 font-semibold text-gray-900">Core Features</h4>
                   <ul className="space-y-1 text-sm text-gray-600">
                     {project.features.map((feature, featureIndex) => (
                       <li className="flex items-start" key={featureIndex}>
@@ -82,9 +132,9 @@ const Projects: FC = memo(() => {
                   </ul>
                 </div>
 
-                {/* 專案成果 */}
+                {/* Project Results */}
                 <div>
-                  <h4 className="mb-2 font-semibold text-gray-900">專案成果</h4>
+                  <h4 className="mb-2 font-semibold text-gray-900">Key Results</h4>
                   <ul className="space-y-1 text-sm text-gray-600">
                     {project.highlights.map((highlight, highlightIndex) => (
                       <li className="flex items-start" key={highlightIndex}>
@@ -95,14 +145,14 @@ const Projects: FC = memo(() => {
                   </ul>
                 </div>
 
-                {/* 連結按鈕 */}
+                {/* Action Buttons */}
                 <div className="mt-auto flex gap-3 pt-4">
                   <a
                     className="flex-1 rounded-lg bg-blue-600 px-4 py-2 text-center text-sm font-medium text-white transition-colors hover:bg-blue-700"
                     href={project.demo}
                     rel="noopener noreferrer"
                     target="_blank">
-                    查看簡報
+                    View Demo
                   </a>
                   <a
                     className="flex-1 rounded-lg border-2 border-gray-300 px-4 py-2 text-center text-sm font-medium text-gray-700 transition-colors hover:border-gray-400 hover:bg-gray-50"
