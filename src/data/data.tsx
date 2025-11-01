@@ -223,34 +223,6 @@ export const portfolioItems: PortfolioItem[] = [
     image: lusiveImage,
   },
   {
-    title: 'Intelligent Question Generation System 2.0',
-    description:
-      'An intelligent test question generation and quality control system using Lasso Regression + Perplexity + Low Temperature technology. Implements Lasso regression for feature selection, perplexity analysis for quality control, low-temperature generation strategies to ensure stability, and automatic filtering of high-quality questions. Reduces API costs by 60% compared to traditional methods, achieves question pass rate of 40-50%, maintains average quality score of 7.5-8.5/10, and improves generation speed by 3-5x.',
-    url: 'https://intelligent-question-sys-5rb4j89.gamma.site/',
-    image: projectPlaceholder,
-  },
-  {
-    title: 'AI Essay Grading System',
-    description:
-      'An AI-powered automatic essay grading system for Chinese compositions, built on machine learning and OCR technology. Features include Tesseract OCR for text recognition from images, intelligent image rotation correction, multi-dimensional scoring (content, structure, grammar, and vocabulary), and machine learning model training and inference. Achieves OCR accuracy of 90-95%, processing speed of 10-30 seconds per essay, batch processing capacity of 50+ essays, and scoring consistency of 95%+.',
-    url: 'https://ai-zuowen-pigai-3idi1ae.gamma.site/',
-    image: projectPlaceholder,
-  },
-  {
-    title: 'Mobile Reviews Sentiment Analysis',
-    description:
-      'An AI-powered sentiment analysis system for mobile phone reviews that automatically analyzes user sentiment trends and provides data visualization with deep insights. Utilizing Natural Language Processing (NLP) techniques to understand real consumer feedback on different mobile brands and models. The system employs advanced machine learning algorithms to accurately identify positive, negative, and neutral sentiments, helping businesses better understand market trends and customer needs. Built with Python, implementing state-of-the-art NLP models for comprehensive sentiment analysis and real-time data processing.',
-    url: 'https://mobile-reviews-sentiment-whmqxyj.gamma.site/',
-    image: projectPlaceholder,
-  },
-  {
-    title: 'Semiconductor Manufacturing Defect Prediction',
-    description:
-      'A comprehensive machine learning project for predicting semiconductor manufacturing defects with 91.4% accuracy. Analyzes 590 production parameters from 1,567 manufacturing records using KNN, XGBoost, Random Forest, and other algorithms. Features include PCA dimensionality reduction (440 to 135 features), handling imbalanced datasets (14.07:1 ratio), ROC curve analysis, and confusion matrix visualization. Complete end-to-end ML pipeline from data preprocessing to model deployment.',
-    url: 'https://semiconductor-defect-pre-onoprbx.gamma.site/',
-    image: projectPlaceholder,
-  },
-  {
     title: 'Digital Art Collection - Surfing Girl',
     description: 'Original digital artwork created with Procreate. A girl surfing at Zhongjiao Bay.',
     url: 'https://opensea.io/ritalinyutzu',
