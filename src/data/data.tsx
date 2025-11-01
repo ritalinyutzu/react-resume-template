@@ -242,6 +242,13 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://mobile-reviews-sentiment-whmqxyj.gamma.site/',
     image: artwork3,
   },
+    {
+    title: 'Semiconductor Manufacturing Defect Prediction',
+    description:
+      'A comprehensive machine learning project for predicting semiconductor manufacturing defects with 91.4% accuracy. Analyzes 590 production parameters from 1,567 manufacturing records using KNN, XGBoost, Random Forest, and other algorithms. Features include PCA dimensionality reduction (440 to 135 features), handling imbalanced datasets (14.07:1 ratio), ROC curve analysis, and confusion matrix visualization. Complete end-to-end ML pipeline from data preprocessing to model deployment.',
+    url: 'https://semiconductor-defect-pre-onoprbx.gamma.site/',
+    image: artwork3,
+  },
   {
     title: 'Digital Art Collection - Surfing Girl',
     description: 'Original digital artwork created with Procreate. A girl surfing at Zhongjiao Bay.',
