@@ -29,7 +29,6 @@ import artwork15 from '../images/portfolio/artwork/artwork-15.jpg';
 import artwork16 from '../images/portfolio/artwork/artwork-16.jpg';
 import artwork17 from '../images/portfolio/artwork/artwork-17.jpg';
 import lusiveImage from '../images/portfolio/lusive-workshop.png';
-import projectPlaceholder from '../images/portfolio/project-placeholder.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.jpg';
 import {
@@ -573,7 +572,7 @@ export const certifications: TimelineItem[] = [
     ),
   },
   {
-    date: '2010',
+    date: '2024',
     location: 'Olympic Fine Arts Competition',
     title: 'Olympic Fine Arts Bronze Medal',
     content: (
