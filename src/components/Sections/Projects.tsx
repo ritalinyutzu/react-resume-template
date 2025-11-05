@@ -85,6 +85,26 @@ const Projects: FC = memo(() => {
         'ROC curve analysis and confusion matrix visualization',
       ],
     },
+    {
+      title: 'Credit Card Fraud Detection System',
+      description: 'An advanced machine learning system for detecting fraudulent credit card transactions, utilizing ensemble methods and imbalanced learning techniques',
+      image: '/images/portfolio/credit-card-fraud.jpg',
+      tags: ['Python', 'Machine Learning', 'XGBoost', 'LightGBM', 'SMOTE', 'Data Science'],
+      github: 'https://github.com/ritalinyutzu/creditcard-fraud-detection',
+      demo: 'https://creditcard-fraud-detecti-959i3jb.gamma.site/',
+      highlights: [
+        'F1-Score 86.56% (exceeds industry benchmark)',
+        'Fraud detection rate 87.72%',
+        'Evaluated 15 model configurations',
+        'ROI 598% with comprehensive analysis',
+      ],
+      features: [
+        'K-Means undersampling, SMOTE, and SMOTE+Tomek Links strategies',
+        '5 algorithms: Logistic Regression, Decision Tree, Random Forest, XGBoost, LightGBM',
+        'Handles severe class imbalance (577:1 ratio)',
+        'Complete confusion matrix analysis and business impact assessment',
+      ],
+    },
   ];
 
   return (
@@ -147,14 +167,14 @@ const Projects: FC = memo(() => {
 
                 {/* Action Buttons */}
                 <div className="mt-auto flex gap-3 pt-4">
-                  <a
+                  
                     className="flex-1 rounded-lg bg-blue-600 px-4 py-2 text-center text-sm font-medium text-white transition-colors hover:bg-blue-700"
                     href={project.demo}
                     rel="noopener noreferrer"
                     target="_blank">
                     View Demo
                   </a>
-                  <a
+                  
                     className="flex-1 rounded-lg border-2 border-gray-300 px-4 py-2 text-center text-sm font-medium text-gray-700 transition-colors hover:border-gray-400 hover:bg-gray-50"
                     href={project.github}
                     rel="noopener noreferrer"
