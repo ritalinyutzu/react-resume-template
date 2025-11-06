@@ -10,7 +10,7 @@ const Projects: FC = memo(() => {
       description: 'An intelligent test question generation and quality control system using Lasso Regression + Perplexity + Low Temperature technology',
       image: '/images/portfolio/intelligent-question-system.jpg',
       tags: ['Python', 'Machine Learning', 'NLP', 'Lasso Regression'],
-      github: 'https://github.com/ritalinyutzu/intelligent-question-system',
+      github: 'https://github.com/ritalinyutzu',
       demo: 'https://intelligent-question-sys-5rb4j89.gamma.site/',
       highlights: [
         'Reduces API costs by 60% compared to traditional methods',
@@ -30,7 +30,7 @@ const Projects: FC = memo(() => {
       description: 'An AI-powered automatic essay grading system for Chinese compositions, built on machine learning and OCR technology',
       image: '/images/portfolio/ai-essay-grading.jpg',
       tags: ['Python', 'OCR', 'Machine Learning', 'NLP', 'Computer Vision'],
-      github: 'https://github.com/ritalinyutzu/ai-essay-grading-system',
+      github: 'https://github.com/ritalinyutzu',
       demo: 'https://ai-zuowen-pigai-3idi1ae.gamma.site/',
       highlights: [
         'OCR accuracy 90-95%',
@@ -50,7 +50,7 @@ const Projects: FC = memo(() => {
       description: 'An AI-powered sentiment analysis system that automatically analyzes user sentiment trends and provides data visualization with deep insights',
       image: '/images/portfolio/mobile-reviews-sentiment.jpg',
       tags: ['Python', 'NLP', 'Machine Learning', 'Data Visualization'],
-      github: 'https://github.com/ritalinyutzu/mobile-reviews-sentiment',
+      github: 'https://github.com/ritalinyutzu/mobile-reviews-sentiment-analysis',
       demo: 'https://mobile-reviews-sentiment-whmqxyj.gamma.site/',
       highlights: [
         'Real-time sentiment classification',
@@ -90,7 +90,7 @@ const Projects: FC = memo(() => {
       description: 'A machine learning system for detecting fraudulent credit card transactions using advanced algorithms and real-time analysis',
       image: '/images/portfolio/credit-card-fraud.jpg',
       tags: ['Python', 'Random Forest', 'Logistic Regression', 'SVM', 'Neural Networks'],
-      github: 'https://github.com/ritalinyutzu/credit-card-fraud-detection',
+      github: 'https://github.com/ritalinyutzu/creditcard-fraud-detection',
       demo: 'https://creditcard-fraud-detecti-959i3jb.gamma.site/',
       highlights: [
         'Handles highly imbalanced dataset (0.172% fraud rate)',
