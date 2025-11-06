@@ -9,7 +9,7 @@ const Projects: FC = memo(() => {
       title: 'Manufacturing Database Management System',
       description: 'An automated data pipeline that transforms Excel manufacturing records into a queryable MySQL database with comprehensive analytics',
       image: '/images/portfolio/manufacturing-database.jpg',
-      tags: ['Python', 'MySQL', 'Pandas', 'Data Engineering', 'DBeaver'],
+      tags: ['Python', 'MySQL', 'Pandas', 'Data Engineering', 'DBeaver', 'openpyxl'],
       github: 'https://github.com/ritalinyutzu/manufacturing-database',
       demo: 'https://manufacturing-database-yi399tb.gamma.site/',
       highlights: [
@@ -49,7 +49,7 @@ const Projects: FC = memo(() => {
       title: 'AI Essay Grading System',
       description: 'An AI-powered automatic essay grading system for Chinese compositions, built on machine learning and OCR technology',
       image: '/images/portfolio/ai-essay-grading.jpg',
-      tags: ['ICR', 'Machine Learning', 'LLM', 'Computer Vision', 'CKIP'],
+      tags: ['ICR', 'OpenCV', 'LLM', 'Scikit-Learn', 'CKIP', 'Tesseract OCR'],
       github: 'https://github.com/ritalinyutzu',
       demo: 'https://ai-zuowen-pigai-3idi1ae.gamma.site/',
       highlights: [
@@ -89,7 +89,7 @@ const Projects: FC = memo(() => {
       title: 'Semiconductor Manufacturing Defect Prediction',
       description: 'A comprehensive machine learning project for predicting semiconductor manufacturing defects with 91.4% accuracy',
       image: '/images/portfolio/semiconductor-defect.jpg',
-      tags: ['Python', 'Machine Learning', 'XGBoost', 'Data Science', 'KNN', 'Random Forest'],
+      tags: ['KNN', 'XGBoost', 'Random Forest', 'Gaussian Naive Bayes', 'Logistic Regression'],
       github: 'https://github.com/ritalinyutzu/semiconductor-defect-prediction',
       demo: 'https://semiconductor-defect-pre-onoprbx.gamma.site/',
       highlights: [
@@ -109,7 +109,7 @@ const Projects: FC = memo(() => {
       title: 'Credit Card Fraud Detection System',
       description: 'A machine learning system for detecting fraudulent credit card transactions using advanced algorithms and real-time analysis',
       image: '/images/portfolio/credit-card-fraud.jpg',
-      tags: ['Python', 'Random Forest', 'XGBoost', 'LightGBM', 'SMOTE', 'Imbalanced Data'],
+      tags: ['K-means', 'Random Forest', 'XGBoost', 'LightGBM', 'SMOTE', 'Imbalanced Data'],
       github: 'https://github.com/ritalinyutzu/creditcard-fraud-detection',
       demo: 'https://creditcard-fraud-detecti-959i3jb.gamma.site/',
       highlights: [
