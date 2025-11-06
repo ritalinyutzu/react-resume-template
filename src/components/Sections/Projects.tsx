@@ -9,7 +9,7 @@ const Projects: FC = memo(() => {
       title: 'Manufacturing Database Management System',
       description: 'An automated data pipeline that transforms Excel manufacturing records into a queryable MySQL database with comprehensive analytics',
       image: '/images/portfolio/manufacturing-database.jpg',
-      tags: ['Python', 'MySQL', 'Pandas', 'Data Engineering', 'DBeaver', 'Database'],
+      tags: ['Python', 'MySQL', 'Pandas', 'Data Engineering', 'DBeaver'],
       github: 'https://github.com/ritalinyutzu/manufacturing-database',
       demo: 'https://manufacturing-database-yi399tb.gamma.site/',
       highlights: [
@@ -29,7 +29,7 @@ const Projects: FC = memo(() => {
       title: 'Intelligent Question Generation System 2.0',
       description: 'An intelligent test question generation and quality control system using Lasso Regression + Perplexity + Low Temperature technology',
       image: '/images/portfolio/intelligent-question-system.jpg',
-      tags: ['Python', 'Machine Learning', 'LLM', 'Lasso Regression', 'Perplexity', 'Temperature'],
+      tags: ['Python', 'Machine Learning', 'LLM', 'Lasso Regression', 'Perplexity'],
       github: 'https://github.com/ritalinyutzu',
       demo: 'https://intelligent-question-sys-5rb4j89.gamma.site/',
       highlights: [
@@ -49,7 +49,7 @@ const Projects: FC = memo(() => {
       title: 'AI Essay Grading System',
       description: 'An AI-powered automatic essay grading system for Chinese compositions, built on machine learning and OCR technology',
       image: '/images/portfolio/ai-essay-grading.jpg',
-      tags: ['Python', 'ICR', 'Machine Learning', 'LLM', 'Computer Vision'],
+      tags: ['Python', 'OCR', 'Machine Learning', 'LLM', 'Computer Vision'],
       github: 'https://github.com/ritalinyutzu',
       demo: 'https://ai-zuowen-pigai-3idi1ae.gamma.site/',
       highlights: [
@@ -59,7 +59,7 @@ const Projects: FC = memo(() => {
         'Scoring consistency 95%+',
       ],
       features: [
-        'Tesseract ICR for text recognition from images',
+        'Tesseract OCR for text recognition from images',
         'Intelligent image rotation correction',
         'Multi-dimensional scoring (content, structure, grammar, vocabulary)',
         'Machine learning model training and inference',
@@ -69,7 +69,7 @@ const Projects: FC = memo(() => {
       title: 'Mobile Reviews Sentiment Analysis',
       description: 'An AI-powered sentiment analysis system that automatically analyzes user sentiment trends and provides data visualization with deep insights',
       image: '/images/portfolio/mobile-reviews-sentiment.jpg',
-      tags: ['Python', 'LLM', 'Machine Learning', 'Data Visualization', 'NLTK', 'Scikit-Learn', 'TfidfVectorizer', 'Joblib'],
+      tags: ['Python', 'NLP', 'Machine Learning', 'Data Visualization', 'NLTK', 'Scikit-Learn'],
       github: 'https://github.com/ritalinyutzu/mobile-reviews-sentiment-analysis',
       demo: 'https://mobile-reviews-sentiment-whmqxyj.gamma.site/',
       highlights: [
@@ -89,7 +89,7 @@ const Projects: FC = memo(() => {
       title: 'Semiconductor Manufacturing Defect Prediction',
       description: 'A comprehensive machine learning project for predicting semiconductor manufacturing defects with 91.4% accuracy',
       image: '/images/portfolio/semiconductor-defect.jpg',
-      tags: ['Python', 'Machine Learning', 'Data Science', 'KNN', 'XGBoost', 'Random Forest', 'Gaussian Naive Bayes', 'Logistic Regression', 'PCA'],
+      tags: ['Python', 'Machine Learning', 'XGBoost', 'Data Science', 'KNN', 'Random Forest'],
       github: 'https://github.com/ritalinyutzu/semiconductor-defect-prediction',
       demo: 'https://semiconductor-defect-pre-onoprbx.gamma.site/',
       highlights: [
@@ -109,7 +109,7 @@ const Projects: FC = memo(() => {
       title: 'Credit Card Fraud Detection System',
       description: 'A machine learning system for detecting fraudulent credit card transactions using advanced algorithms and real-time analysis',
       image: '/images/portfolio/credit-card-fraud.jpg',
-      tags: ['Python', 'K-Means', 'SMOTE', 'Tomek Links', 'XGBoost', 'LightGBM', 'Decision Tree', 'Sigmoid', 'Random Forest‘, 'imbalanced Data'],
+      tags: ['Python', 'Random Forest', 'XGBoost', 'LightGBM', 'SMOTE', 'Imbalanced Data'],
       github: 'https://github.com/ritalinyutzu/creditcard-fraud-detection',
       demo: 'https://creditcard-fraud-detecti-959i3jb.gamma.site/',
       highlights: [
