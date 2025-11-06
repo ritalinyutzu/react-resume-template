@@ -85,6 +85,26 @@ const Projects: FC = memo(() => {
         'ROC curve analysis and confusion matrix visualization',
       ],
     },
+    {
+      title: 'Credit Card Fraud Detection System',
+      description: 'A machine learning system for detecting fraudulent credit card transactions using advanced algorithms and real-time analysis',
+      image: '/images/portfolio/credit-card-fraud.jpg',
+      tags: ['Python', 'Random Forest', 'Logistic Regression', 'SVM', 'Neural Networks'],
+      github: 'https://github.com/ritalinyutzu/credit-card-fraud-detection',
+      demo: 'https://creditcard-fraud-detecti-959i3jb.gamma.site/',
+      highlights: [
+        'Handles highly imbalanced dataset (0.172% fraud rate)',
+        'Processes 284,807 transactions',
+        'Real-time fraud detection capability',
+        'High precision and recall balance',
+      ],
+      features: [
+        'Random Forest, Logistic Regression, and SVM algorithms',
+        'PCA-transformed features for privacy protection',
+        'SMOTE technique for handling class imbalance',
+        'Comprehensive model evaluation with ROC-AUC analysis',
+      ],
+    },
   ];
 
   return (
