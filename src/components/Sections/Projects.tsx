@@ -29,7 +29,7 @@ const Projects: FC = memo(() => {
       title: 'Intelligent Question Generation System 2.0',
       description: 'An intelligent test question generation and quality control system using Lasso Regression + Perplexity + Low Temperature technology',
       image: '/images/portfolio/intelligent-question-system.jpg',
-      tags: ['Python', 'Machine Learning', 'LLM', 'Lasso Regression', 'Perplexity'],
+      tags: ['Machine Learning', 'LLM', 'Lasso Regression', 'Perplexity', 'Temperature'],
       github: 'https://github.com/ritalinyutzu',
       demo: 'https://intelligent-question-sys-5rb4j89.gamma.site/',
       highlights: [
@@ -49,7 +49,7 @@ const Projects: FC = memo(() => {
       title: 'AI Essay Grading System',
       description: 'An AI-powered automatic essay grading system for Chinese compositions, built on machine learning and OCR technology',
       image: '/images/portfolio/ai-essay-grading.jpg',
-      tags: ['Python', 'OCR', 'Machine Learning', 'LLM', 'Computer Vision'],
+      tags: ['ICR', 'Machine Learning', 'LLM', 'Computer Vision', 'CKIP'],
       github: 'https://github.com/ritalinyutzu',
       demo: 'https://ai-zuowen-pigai-3idi1ae.gamma.site/',
       highlights: [
@@ -59,7 +59,7 @@ const Projects: FC = memo(() => {
         'Scoring consistency 95%+',
       ],
       features: [
-        'Tesseract OCR for text recognition from images',
+        'Tesseract ICR for text recognition from images',
         'Intelligent image rotation correction',
         'Multi-dimensional scoring (content, structure, grammar, vocabulary)',
         'Machine learning model training and inference',
@@ -69,7 +69,7 @@ const Projects: FC = memo(() => {
       title: 'Mobile Reviews Sentiment Analysis',
       description: 'An AI-powered sentiment analysis system that automatically analyzes user sentiment trends and provides data visualization with deep insights',
       image: '/images/portfolio/mobile-reviews-sentiment.jpg',
-      tags: ['Python', 'NLP', 'Machine Learning', 'Data Visualization', 'NLTK', 'Scikit-Learn'],
+      tags: ['LLM', 'Machine Learning', 'NLTK', 'Scikit-Learn', 'Joblib', 'TfidfVectorizer'],
       github: 'https://github.com/ritalinyutzu/mobile-reviews-sentiment-analysis',
       demo: 'https://mobile-reviews-sentiment-whmqxyj.gamma.site/',
       highlights: [
