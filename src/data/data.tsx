@@ -132,7 +132,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'French',
-        level: 4,
+        level: 5,
       },
       {
         name: 'Spanish',
@@ -339,11 +339,25 @@ export const education: TimelineItem[] = [
     location: 'Taiwan, Kaohsiung',
     title: 'Masters of Business Administration, Master',
     content: (
-      <p>
-        GPA 4.09 <br />
-        Thesis: An analysis of features of the total revenue of the concerts based on Machine Learning (Support Vector
-        Machine)
-      </p>
+      <div className="space-y-3">
+        <p>
+          <strong>GPA:</strong> 4.09
+        </p>
+        <p className="font-semibold text-gray-900">
+          Thesis: An analysis of features of the total revenue of the concerts based on Machine Learning (Support Vector Machine)
+        </p>
+        <div className="text-sm text-gray-700 leading-relaxed">
+          <p className="mb-2">
+            <span className="font-semibold">Abstract:</span> Concert tickets revenue has always been a component of the pricing mechanism. When selecting among foreign performers, most of the concert promoters consider the views on Youtube to be helpful for building pricing model.
+          </p>
+          <p className="mb-2">
+            Furthermore, to promoters, other factors including internet word of mouth, exhibition location or new-released albums are also crucial attributes regarding the demand in music industry. That&apos;s why this research, based on the SVM model, intend to manifest what are the features that are able to predict the potential revenue.
+          </p>
+          <p>
+            The study is developed through the combination of 2-year data on Pollstar and the practical point of view from &ldquo;Wake Up Festival&rdquo; and &ldquo;Our Town Love House.&rdquo; The indications is: the collected features could cluster the performers; phrased otherwise, applying the views on Youtube and other related features, promoters could better conduct the price mechanism and create value since the local market trend and demand are analyzed and well-understood.
+          </p>
+        </div>
+      </div>
     ),
   },
 ];
