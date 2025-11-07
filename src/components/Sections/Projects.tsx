@@ -26,6 +26,26 @@ const Projects: FC = memo(() => {
       ],
     },
     {
+      title: 'DX Pricing Strategy Analysis',
+      description: 'A comprehensive data-driven pricing strategy analysis dashboard with market segmentation, competitor intelligence, and revenue optimization insights',
+      image: '/images/portfolio/dx-pricing-strategy.jpg',
+      tags: ['Economics', 'Bargaing Power', 'Demand Elasticity', 'Hyperopt', 'XGBoost', 'Pricing Strategy'],
+      github: 'https://github.com/ritalinyutzu/dx-pricing-strategy',
+      demo: 'https://data-analysis-pricing-st-q1bdpsm.gamma.site/',
+      highlights: [
+        '50+ competitors analyzed across market segments',
+        '15+ interactive visualization charts',
+        'Complete price range analysis ($5K - $500K+ service tiers)',
+        '4 distinct customer segments identified',
+      ],
+      features: [
+        'Comprehensive market segmentation and positioning analysis',
+        'Competitor pricing comparison and benchmarking',
+        'Interactive data visualizations with Plotly and D3.js',
+        'Revenue optimization strategies and recommendations',
+      ],
+    },
+    {
       title: 'Intelligent Question Generation System 2.0',
       description: 'An intelligent test question generation and quality control system using Lasso Regression + Perplexity + Low Temperature technology',
       image: '/images/portfolio/intelligent-question-system.jpg',
