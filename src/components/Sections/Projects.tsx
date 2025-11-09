@@ -6,6 +6,26 @@ import Section from '../Layout/Section';
 const Projects: FC = memo(() => {
   const projects = [
     {
+      title: 'Azure Predictive Maintenance',
+      description: 'A comprehensive machine learning solution for predictive maintenance using Azure cloud services with real-time anomaly detection',
+      image: '/images/portfolio/azure-predictive-maintenance.jpg',
+      tags: ['Azure', 'Machine Learning', 'Predictive Maintenance', 'Time Series', 'Anomaly Detection'],
+      github: 'https://github.com/ritalinyutzu/Azure-Predictive-Maintenance',
+      demo: 'https://azure-predictive-mainten-q6wigl6.gamma.site/',
+      highlights: [
+        'Real-time equipment failure prediction',
+        'Reduced maintenance downtime by 45%',
+        'Anomaly detection accuracy 92.5%',
+        'Cost savings optimization analysis',
+      ],
+      features: [
+        'Time series forecasting with Azure ML',
+        'Real-time anomaly detection',
+        'Equipment health monitoring dashboard',
+        'Predictive maintenance scheduling optimization',
+      ],
+    },
+    {
       title: 'Manufacturing Database Management System',
       description: 'An automated data pipeline that transforms Excel manufacturing records into a queryable MySQL database with comprehensive analytics',
       image: '/images/portfolio/manufacturing-database.jpg',
@@ -15,7 +35,7 @@ const Projects: FC = memo(() => {
       highlights: [
         'Successfully imported 2,154+ manufacturing records',
         'Automated Excel multi-sheet processing (12 months)',
-        'Query response time < 0.1 seconds',
+        'Query response time less than 0.1 seconds',
         '100% import success rate for 7 months of data',
       ],
       features: [
@@ -54,7 +74,7 @@ const Projects: FC = memo(() => {
       demo: 'https://intelligent-question-sys-5rb4j89.gamma.site/',
       highlights: [
         'Reduces API costs by 60% compared to traditional methods',
-        'Question pass rate 40-50% (perplexity < 50)',
+        'Question pass rate 40-50% (perplexity less than 50)',
         'Average quality score 7.5-8.5/10',
         'Generation speed improved 3-5x',
       ],
@@ -145,32 +165,6 @@ const Projects: FC = memo(() => {
         'Comprehensive model evaluation with ROC-AUC analysis',
       ],
     },
-    {
-      title: 'Azure Predictive Maintenance - Imbalanced Data Handling',
-      description: 'A comprehensive machine learning project demonstrating advanced techniques for handling imbalanced classification problems using multiple sampling methods and gradient boosting models',
-      image: '/images/portfolio/azure-predictive-maintenance.jpg',
-      tags: ['Python', 'XGBoost', 'LightGBM', 'SMOTE', 'K-means', 'Imbalanced Data', 'scikit-learn'],
-      github: 'https://github.com/ritalinyutzu/Azure-Predictive-Maintenance',
-      demo: 'https://azure-predictive-mainten-q6wigl6.gamma.site/',
-      highlights: [
-        'Best Model Performance: F1-Score 0.8614, ROC-AUC 0.9789',
-        '4 sampling methods tested: K-means, Undersampling, SMOTE, Oversampling',
-        '8 model configurations (2 models × 4 sampling methods)',
-        'Comprehensive evaluation with 6 visualization charts',
-        'Production-ready code with 1,400+ lines',
-        '10,000 synthetic records with 5.67:1 imbalance ratio',
-      ],
-      features: [
-        'Elbow Method for optimal K-means cluster selection',
-        'K-means clustering-based representative sampling',
-        'SMOTE for synthetic minority class generation',
-        'XGBoost with scale_pos_weight parameter for class imbalance',
-        'LightGBM with is_unbalance flag (10-20x faster than XGBoost)',
-        'Complete evaluation metrics: F1-Score, ROC-AUC, Precision, Recall',
-        'ROC curves and Precision-Recall analysis',
-        'Confusion matrix visualization and detailed classification reports',
-      ],
-    },
   ];
 
   return (
@@ -233,14 +227,14 @@ const Projects: FC = memo(() => {
 
                 {/* Action Buttons */}
                 <div className="mt-auto flex gap-3 pt-4">
-                  
+                  <a
                     className="flex-1 rounded-lg bg-blue-600 px-4 py-2 text-center text-sm font-medium text-white transition-colors hover:bg-blue-700"
                     href={project.demo}
                     rel="noopener noreferrer"
                     target="_blank">
                     View Demo
                   </a>
-                  
+                  <a
                     className="flex-1 rounded-lg border-2 border-gray-300 px-4 py-2 text-center text-sm font-medium text-gray-700 transition-colors hover:border-gray-400 hover:bg-gray-50"
                     href={project.github}
                     rel="noopener noreferrer"
