@@ -145,6 +145,32 @@ const Projects: FC = memo(() => {
         'Comprehensive model evaluation with ROC-AUC analysis',
       ],
     },
+    {
+      title: 'Azure Predictive Maintenance - Imbalanced Data Handling',
+      description: 'A comprehensive machine learning project demonstrating advanced techniques for handling imbalanced classification problems using multiple sampling methods and gradient boosting models',
+      image: '/images/portfolio/azure-predictive-maintenance.jpg',
+      tags: ['Python', 'XGBoost', 'LightGBM', 'SMOTE', 'K-means', 'Imbalanced Data', 'scikit-learn'],
+      github: 'https://github.com/ritalinyutzu/Azure-Predictive-Maintenance',
+      demo: 'https://azure-predictive-mainten-q6wigl6.gamma.site/',
+      highlights: [
+        'Best Model Performance: F1-Score 0.8614, ROC-AUC 0.9789',
+        '4 sampling methods tested: K-means, Undersampling, SMOTE, Oversampling',
+        '8 model configurations (2 models × 4 sampling methods)',
+        'Comprehensive evaluation with 6 visualization charts',
+        'Production-ready code with 1,400+ lines',
+        '10,000 synthetic records with 5.67:1 imbalance ratio',
+      ],
+      features: [
+        'Elbow Method for optimal K-means cluster selection',
+        'K-means clustering-based representative sampling',
+        'SMOTE for synthetic minority class generation',
+        'XGBoost with scale_pos_weight parameter for class imbalance',
+        'LightGBM with is_unbalance flag (10-20x faster than XGBoost)',
+        'Complete evaluation metrics: F1-Score, ROC-AUC, Precision, Recall',
+        'ROC curves and Precision-Recall analysis',
+        'Confusion matrix visualization and detailed classification reports',
+      ],
+    },
   ];
 
   return (
@@ -207,14 +233,14 @@ const Projects: FC = memo(() => {
 
                 {/* Action Buttons */}
                 <div className="mt-auto flex gap-3 pt-4">
-                  <a
+                  
                     className="flex-1 rounded-lg bg-blue-600 px-4 py-2 text-center text-sm font-medium text-white transition-colors hover:bg-blue-700"
                     href={project.demo}
                     rel="noopener noreferrer"
                     target="_blank">
                     View Demo
                   </a>
-                  <a
+                  
                     className="flex-1 rounded-lg border-2 border-gray-300 px-4 py-2 text-center text-sm font-medium text-gray-700 transition-colors hover:border-gray-400 hover:bg-gray-50"
                     href={project.github}
                     rel="noopener noreferrer"
