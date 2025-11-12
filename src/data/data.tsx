@@ -602,7 +602,7 @@ export const certifications: TimelineItem[] = [
     ),
   },
   {
-    date: '2024',
+    date: '2010',
     location: 'Olympic Fine Arts Competition',
     title: 'Olympic Fine Arts Bronze Medal',
     content: (
