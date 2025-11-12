@@ -210,6 +210,27 @@ export const skills: SkillGroup[] = [
       },
     ],
   },
+  {
+    name: 'Project Management Tools',
+    skills: [
+      {
+        name: 'Asana',
+        level: 5,
+      },
+      {
+        name: 'Trello',
+        level: 6,
+      },
+      {
+        name: 'Jira',
+        level: 7,
+      },
+      {
+        name: 'Notion',
+        level: 10,
+      },
+    ],
+  },
 ];
 
 /**
@@ -604,7 +625,7 @@ export const certifications: TimelineItem[] = [
     ),
   },
   {
-    date: '2024',
+    date: '2010',
     location: 'Olympic Fine Arts Competition',
     title: 'Olympic Fine Arts Bronze Medal',
     content: (
