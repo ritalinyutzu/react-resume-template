@@ -516,7 +516,7 @@ export const teaching: TeachingSection = {
       date: '2017 - 2019',
       location: 'National Sun Yat-sen University',
       title: 'Teaching Assistant',
-      level: 'Graduate (EMBA)',
+      level: 'Graduate (MBA)',
       course: 'Managerial Economics',
       duties: [
         'Supported executive MBA students with advanced economic concepts and business applications',
@@ -542,7 +542,7 @@ export const teaching: TeachingSection = {
       date: '2017 - 2019',
       location: 'National Sun Yat-sen University',
       title: 'Private Tutor',
-      level: 'Doctoral',
+      level: 'phD',
       course: 'Game Theory',
       duties: [
         'Provided intensive individualized instruction in advanced game theory concepts',
