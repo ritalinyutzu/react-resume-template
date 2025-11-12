@@ -555,9 +555,23 @@ export const teaching: TeachingSection = {
 };
 
 /**
- * Certification section
+ * Certification section - ⭐ NEW CERTIFICATION ADDED HERE
  */
 export const certifications: TimelineItem[] = [
+  {
+    date: 'November 2025',
+    location: 'LinkedIn Learning',
+    title: 'Agile Software Development',
+    content: (
+      <p>
+        Mastered agile software development principles and practices
+        <br />
+        Credential ID: b4e6d9166a9bfa5882980b381161c141572d68051a817f5000f67f9581a2efb4
+        <br />
+        Skills: Agile Methodology, Scrum, Agile Teams, Sprint Planning, Iterative Development
+      </p>
+    ),
+  },
   {
     date: 'September 2025',
     location: 'Google / Coursera',
