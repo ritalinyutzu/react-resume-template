@@ -204,6 +204,10 @@ export const skills: SkillGroup[] = [
         name: 'Procreate',
         level: 10,
       },
+      {
+        name: 'Figma',
+        level: 6,
+      },
     ],
   },
 ];
