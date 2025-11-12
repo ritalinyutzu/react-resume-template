@@ -102,13 +102,11 @@ export const heroData: Hero = {
 };
 
 /**
- * About section
+ * About section - ⭐ UPDATED WITH ENHANCED DESCRIPTION
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I am a Senior AI Engineer at a technology company, where I design, develop, and deploy artificial intelligence solutions for various domains and applications. 
-I collaborate with cross-functional teams to deliver high-quality products that meet the needs and expectations of our clients.
-Previously, I was a Senior Data Scientist at Gamania Digital Entertainment, where I analyzed the profitability data of mobile games and provided data-driven insights for business decisions. I also reduced the costs of using App Annie by web crawling the metadata from API resources using R or Python and PostgreSQL. I have a Master's degree in MBA from National Sun Yat-Sen University, where I developed my skills in data science, data visualization, and Spanish. I am passionate about machine learning, artificial neural networks, and statistics, and I enjoy creating and selling my own paintings on OpenSea.`,
+  description: `I am a Senior AI Engineer and Project Manager specializing in AI/ML solutions, data-driven strategy, and quality assurance. At Advantech, I led the AI Recommendation Tool deployment using unsupervised learning on Microsoft Azure ML Studio, and drove pricing strategy optimization to maximize revenue growth. Previously at Gamania, I leveraged Python and PostgreSQL to analyze game profitability data, providing actionable business insights. I also bring expertise in software security and quality assurance engineering, with hands-on experience in system testing, vulnerability assessment, and compliance frameworks. I hold an MBA from National Sun Yat-Sen University and am passionate about building intelligent, secure, and robust systems that solve real-world problems through data and automation.`,
   aboutItems: [
     {label: 'Location', text: 'Taiwan, Taipei', Icon: MapIcon},
     {label: 'Age', text: 'Forever 18', Icon: CalendarIcon},
@@ -555,7 +553,7 @@ export const teaching: TeachingSection = {
 };
 
 /**
- * Certification section - ⭐ NEW CERTIFICATION ADDED HERE
+ * Certification section - ⭐ INCLUDES AGILE SOFTWARE DEVELOPMENT
  */
 export const certifications: TimelineItem[] = [
   {
@@ -602,7 +600,7 @@ export const certifications: TimelineItem[] = [
     ),
   },
   {
-    date: '2010',
+    date: '2024',
     location: 'Olympic Fine Arts Competition',
     title: 'Olympic Fine Arts Bronze Medal',
     content: (
