@@ -95,7 +95,7 @@ const MobileNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}
               leave="transition ease-in-out duration-300 transform"
               leaveFrom="translate-x-0"
               leaveTo="-translate-x-full">
-              <div className="relative flex h-full w-4/5 flex-col bg-stone-800">
+              <div className="relative flex h-full w-screen flex-col bg-stone-800">
                 <div className="flex items-center justify-between border-b border-stone-700 p-4">
                   <span className="text-lg font-bold text-white">Menu</span>
                   <button
