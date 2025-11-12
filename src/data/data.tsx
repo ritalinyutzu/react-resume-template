@@ -564,7 +564,7 @@ export const certifications: TimelineItem[] = [
       <p>
         Mastered agile software development principles and practices
         <br />
-        Credential ID: b4e6d9166a9bfa5882980b381161c141572d68051a817f5000f67f9581a2efb4
+        Credential ID: ID too long
         <br />
         Skills: Agile Methodology, Scrum, Agile Teams, Sprint Planning, Iterative Development
       </p>
