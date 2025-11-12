@@ -1,5 +1,5 @@
 import {Dialog, Transition} from '@headlessui/react';
-import {Bars3BottomRightIcon} from '@heroicons/react/24/outline';
+import {Bars3BottomRightIcon, XMarkIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import Link from 'next/link';
 import {FC, Fragment, memo, useCallback, useMemo, useState} from 'react';
@@ -76,7 +76,7 @@ const MobileNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}
           <span className="sr-only">Open sidebar</span>
         </button>
         <Transition.Root as={Fragment} show={isOpen}>
-          <Dialog as="div" className="fixed inset-0 z-40 flex sm:hidden" onClose={toggleOpen}>
+          <Dialog as="div" className="fixed inset-0 z-40 overflow-hidden sm:hidden" onClose={toggleOpen}>
             <Transition.Child
               as={Fragment}
               enter="transition-opacity ease-linear duration-300"
@@ -95,8 +95,17 @@ const MobileNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}
               leave="transition ease-in-out duration-300 transform"
               leaveFrom="translate-x-0"
               leaveTo="-translate-x-full">
-              <div className="relative w-4/5 bg-stone-800">
-                <nav className="mt-5 flex flex-col gap-y-2 px-2">
+              <div className="relative flex h-full w-4/5 flex-col bg-stone-800">
+                <div className="flex items-center justify-between border-b border-stone-700 p-4">
+                  <span className="text-lg font-bold text-white">Menu</span>
+                  <button
+                    aria-label="Close sidebar"
+                    className="rounded-md p-1 hover:bg-stone-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500"
+                    onClick={toggleOpen}>
+                    <XMarkIcon className="h-6 w-6 text-white" />
+                  </button>
+                </div>
+                <nav className="flex flex-col gap-y-2 overflow-y-auto px-2 py-4">
                   {navSections.map(section => (
                     <NavItem
                       activeClass={activeClass}
