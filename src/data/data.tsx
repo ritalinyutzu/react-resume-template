@@ -578,9 +578,23 @@ export const teaching: TeachingSection = {
 };
 
 /**
- * Certification section - ⭐ UPDATED WITH GENERATIVE AI: INTRODUCTION TO LARGE LANGUAGE MODELS
+ * Certification section - ⭐ UPDATED WITH WHAT IS GENERATIVE AI & LLM COURSES
  */
 export const certifications: TimelineItem[] = [
+  {
+    date: 'November 2025',
+    location: 'LinkedIn',
+    title: 'What is Generative AI?',
+    content: (
+      <p>
+        Completed foundational course on Generative AI concepts and applications
+        <br />
+        Credential ID: ID is too long
+        <br />
+        Skills: Generative AI Fundamentals, AI Concepts, Technology Understanding
+      </p>
+    ),
+  },
   {
     date: 'November 2025',
     location: 'LinkedIn',
