@@ -578,18 +578,32 @@ export const teaching: TeachingSection = {
 };
 
 /**
- * Certification section - ⭐ INCLUDES AGILE SOFTWARE DEVELOPMENT
+ * Certification section - ⭐ INCLUDES ADVANCED PYTHON & AGILE SOFTWARE DEVELOPMENT
  */
 export const certifications: TimelineItem[] = [
   {
     date: 'November 2025',
-    location: 'LinkedIn Learning',
+    location: 'LinkedIn',
+    title: 'Advanced Python',
+    content: (
+      <p>
+        Completed Advanced Python course mastering iterators, itertools, and string processing
+        <br />
+        Credential ID: ID is too long
+        <br />
+        Skills: Python Programming, Iterators, Itertools, String Processing, Data Structures
+      </p>
+    ),
+  },
+  {
+    date: 'November 2025',
+    location: 'LinkedIn',
     title: 'Agile Software Development',
     content: (
       <p>
         Mastered agile software development principles and practices
         <br />
-        Credential ID: ID too long
+        Credential ID: ID is too long
         <br />
         Skills: Agile Methodology, Scrum, Agile Teams, Sprint Planning, Iterative Development
       </p>
