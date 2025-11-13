@@ -578,9 +578,23 @@ export const teaching: TeachingSection = {
 };
 
 /**
- * Certification section - ⭐ INCLUDES ADVANCED PYTHON & AGILE SOFTWARE DEVELOPMENT
+ * Certification section - ⭐ UPDATED WITH GENERATIVE AI: INTRODUCTION TO LARGE LANGUAGE MODELS
  */
 export const certifications: TimelineItem[] = [
+  {
+    date: 'November 2025',
+    location: 'LinkedIn',
+    title: 'Generative AI: Introduction to Large Language Models',
+    content: (
+      <p>
+        Completed Generative AI course covering Large Language Models fundamentals, architecture, and real-world applications
+        <br />
+        Credential ID: ID is too long
+        <br />
+        Skills: Generative AI, Large Language Models, LLM Architecture, AI Fundamentals, Prompt Engineering
+      </p>
+    ),
+  },
   {
     date: 'November 2025',
     location: 'LinkedIn',
