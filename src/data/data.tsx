@@ -387,6 +387,21 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
+    date: 'January 2024 - Present',  // ⬅️ 請依實際情況修改日期
+    location: 'Coelacanth Co., Ltd',
+    title: 'Founder',
+    content: (
+      <p>
+        ● Digital Transformation – Leading comprehensive digital transformation initiatives, modernizing business processes and implementing cutting-edge technology solutions.
+        <br />● Web Design & Development – Creating responsive, user-centric websites with modern design principles and best practices.
+        <br />● Database Development – Architecting and implementing robust database systems to support business operations and data-driven decision making.
+        <br />● AI Agent Portrait Illustration – Developing AI-powered portrait illustration services, combining artistic creativity with machine learning technology.
+        <br />● Business Card Design – Crafting professional, memorable business card designs that reflect brand identity and values.
+        <br />● UX/UI Design – Designing intuitive user experiences and visually appealing interfaces across digital platforms.
+      </p>
+    ),
+  },
+  {
     date: 'September 2025 - Present',
     location: 'See U Tech Co., Ltd',
     title: 'Project Manager / AI Engineer',
@@ -487,7 +502,6 @@ export const experience: TimelineItem[] = [
     ),
   },
 ];
-
 /**
  * Teaching Experience section
  */
