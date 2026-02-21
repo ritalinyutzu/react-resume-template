@@ -387,7 +387,7 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'november 2025 - Present',  //
+    date: 'November 2025 - Present',  //
     location: 'Coelacanth Co., Ltd',
     title: 'Founder',
     content: (
