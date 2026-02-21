@@ -387,7 +387,7 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'January 2024 - Present',  // ⬅️ 請依實際情況修改日期
+    date: 'november 2025 - Present',  //
     location: 'Coelacanth Co., Ltd',
     title: 'Founder',
     content: (
@@ -402,7 +402,7 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'September 2025 - Present',
+    date: 'September 2025 - November 2025',
     location: 'See U Tech Co., Ltd',
     title: 'Project Manager / AI Engineer',
     content: (
