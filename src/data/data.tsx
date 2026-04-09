@@ -29,6 +29,7 @@ import artwork15 from '../images/portfolio/artwork/artwork-15.jpg';
 import artwork16 from '../images/portfolio/artwork/artwork-16.jpg';
 import artwork17 from '../images/portfolio/artwork/artwork-17.jpg';
 import lusiveImage from '../images/portfolio/lusive-workshop.png';
+import rottenBluesImage from '../images/portfolio/project-placeholder.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.jpg';
 import {
@@ -243,6 +244,13 @@ export const portfolioItems: PortfolioItem[] = [
       'Designed and developed the official website for Lusive Workshop brand (2023-Present). Full-stack web development including HTML/CSS design, deployment, maintenance, and payment gateway integration. The clothing designs from this website were featured and worn at BlackPink concert in Kaohsiung.',
     url: 'http://www.lusive-workshop.com',
     image: lusiveImage,
+  },
+  {
+    title: 'Rotten Blues Records Official Website',
+    description:
+      'Rotten Blues is a renowned record store in Taipei, located in the Guting district. The website features over 2,500 products, making the development process highly complex and time-consuming. Full-stack web development including HTML/CSS/PHP/JSON design, deployment, maintenance, and payment gateway integration.',
+    url: 'http://www.rottenblues.com/',
+    image: rottenBluesImage,
   },
   {
     title: 'Digital Art Collection - Surfing Girl',
