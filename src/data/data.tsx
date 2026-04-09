@@ -402,37 +402,20 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'September 2025 - November 2025',
-    location: 'See U Tech Co., Ltd',
-    title: 'Project Manager / AI Engineer',
+    date: 'November 2022 - Present',
+    location: 'Lusive Workshop Co., Ltd, Shanghai, China',
+    title: 'Senior Software Engineer',
     content: (
       <p>
-        ● Executed the Ministry of Digital Affairs Innovation Subsidy Project.
-        <br />● Built an intelligent exam question bank using Python.
-        <br />● Implemented process management by automating scheduling across the examination system.
-        <br />● Leveraging ML/DL for an Intelligent Question Generation System 2.0 to supersede inefficient manual test creation.
-        <br />● Leveraging ML/DL for an AI Essay Grading System to eliminate the costs of human grading for essays and written responses. (Build an ETL Pipeline)
-      </p>
-    ),
-  },
-  {
-    date: 'June 2025 - September 2025',
-    location: 'Leyan Co., Ltd',
-    title: 'Project Manager / Quality Assurance Engineer',
-    content: (
-      <p>
-        ● SST AI Image Recognition: Leading the implementation of an AI image recognition system, automating dental
-        image labeling and optimizing clinical workflows.
-        <br />● Applied Science and Technology Union AI Image Recognition: Coordinate cross-functional teams to build an
-        AI-based medical image recognition system supporting dental diagnostics and clinical applications.
-        <br />● Clinic Profile Data Import for Allied Clinics: Planning and executing clinic profile data import
-        processes, enabling rapid system onboarding across multiple allied clinics.
-        <br />● WebHIS Billing Module Development and Data Management: Driving the development and testing of the WebHIS
-        billing module, improving healthcare cost settlement efficiency and accuracy, and leading the implementation of
-        the master data management module, enhancing clinic operations and patient data integrity.
-        <br />● Software Testing Plan – Unit Testing and Integration Testing: Designing and executing unit test plans to
-        ensure functional accuracy and quality consistency across system modules, also conduct integration testing and
-        prepare test reports, validating cross-system stability and reducing release risks.
+        ● E-commerce Platform Setup for Lusive Workshop – Developed and deployed the Lusive Workshop e-commerce platform using
+        PHP, HTML, and CSS. Designed and created detailed layout wireframes to guide the overall website structure and user interface
+        composition.
+        <br />● Product Management and Onboarding – Automated the process of importing products and descriptions onto the platform using
+        programming scripts (or languages) to ensure efficient and accurate listing.
+        <br />● Back-end System Management and Customer Support – Managed the back-end system, proactively resolving customer issues
+        related to orders and performing bug troubleshooting and root cause analysis when order discrepancies occurred.
+        <br />● Payment Gateway Integration and Maintenance – Managed the Taiwan region's ECPay payment gateway service on behalf of the client/owner. Responsible for the successful integration (API connection) of the ECPay service and the ongoing account
+        operation and maintenance.
       </p>
     ),
   },
