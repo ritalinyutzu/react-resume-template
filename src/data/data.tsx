@@ -29,7 +29,6 @@ import artwork15 from '../images/portfolio/artwork/artwork-15.jpg';
 import artwork16 from '../images/portfolio/artwork/artwork-16.jpg';
 import artwork17 from '../images/portfolio/artwork/artwork-17.jpg';
 import lusiveImage from '../images/portfolio/lusive-workshop.png';
-import rottenBluesImage from '../images/portfolio/rotten-blues.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.jpg';
 import {
@@ -63,7 +62,6 @@ export const SectionId = {
   Contact: 'contact',
   Portfolio: 'portfolio',
   Resume: 'resume',
-  Teaching: 'teaching',
   Skills: 'skills',
   Stats: 'stats',
   Testimonials: 'testimonials',
@@ -103,11 +101,13 @@ export const heroData: Hero = {
 };
 
 /**
- * About section - ⭐ UPDATED WITH ENHANCED DESCRIPTION
+ * About section
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I am a Senior AI Engineer and Project Manager specializing in AI/ML solutions, data-driven strategy, and quality assurance. At Advantech, I led the AI Recommendation Tool deployment using unsupervised learning on Microsoft Azure ML Studio, and drove pricing strategy optimization to maximize revenue growth. Previously at Gamania, I leveraged Python and PostgreSQL to analyze game profitability data, providing actionable business insights. I also bring expertise in software security and quality assurance engineering, with hands-on experience in system testing, vulnerability assessment, and compliance frameworks. I hold an MBA from National Sun Yat-Sen University and am passionate about building intelligent, secure, and robust systems that solve real-world problems through data and automation.`,
+  description: `I am a Senior AI Engineer at a technology company, where I design, develop, and deploy artificial intelligence solutions for various domains and applications. 
+I collaborate with cross-functional teams to deliver high-quality products that meet the needs and expectations of our clients.
+Previously, I was a Senior Data Scientist at Gamania Digital Entertainment, where I analyzed the profitability data of mobile games and provided data-driven insights for business decisions. I also reduced the costs of using App Annie by web crawling the metadata from API resources using R or Python and PostgreSQL. I have a Master's degree in MBA from National Sun Yat-Sen University, where I developed my skills in data science, data visualization, and Spanish. I am passionate about machine learning, artificial neural networks, and statistics, and I enjoy creating and selling my own paintings on OpenSea.`,
   aboutItems: [
     {label: 'Location', text: 'Taiwan, Taipei', Icon: MapIcon},
     {label: 'Age', text: 'Forever 18', Icon: CalendarIcon},
@@ -131,7 +131,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'French',
-        level: 5,
+        level: 4,
       },
       {
         name: 'Spanish',
@@ -205,31 +205,6 @@ export const skills: SkillGroup[] = [
         name: 'Procreate',
         level: 10,
       },
-      {
-        name: 'Figma',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Project Management Tools',
-    skills: [
-      {
-        name: 'Asana',
-        level: 5,
-      },
-      {
-        name: 'Trello',
-        level: 6,
-      },
-      {
-        name: 'Jira',
-        level: 7,
-      },
-      {
-        name: 'Notion',
-        level: 10,
-      },
     ],
   },
 ];
@@ -244,13 +219,6 @@ export const portfolioItems: PortfolioItem[] = [
       'Designed and developed the official website for Lusive Workshop brand (2023-Present). Full-stack web development including HTML/CSS design, deployment, maintenance, and payment gateway integration. The clothing designs from this website were featured and worn at BlackPink concert in Kaohsiung.',
     url: 'http://www.lusive-workshop.com',
     image: lusiveImage,
-  },
-  {
-    title: 'Rotten Blues Records Official Website',
-    description:
-      'Rotten Blues is a renowned record store in Taipei, located in the Guting district. The website features over 2,500 products, making the development process highly complex and time-consuming. Full-stack web development including HTML/CSS/PHP/JSON design, deployment, maintenance, and payment gateway integration.',
-    url: 'http://www.rottenblues.com/',
-    image: rottenBluesImage,
   },
   {
     title: 'Digital Art Collection - Surfing Girl',
@@ -370,60 +338,46 @@ export const education: TimelineItem[] = [
     location: 'Taiwan, Kaohsiung',
     title: 'Masters of Business Administration, Master',
     content: (
-      <div className="space-y-3">
-        <p>
-          <strong>GPA:</strong> 4.09
-        </p>
-        <p className="font-semibold text-gray-900">
-          Thesis: An analysis of features of the total revenue of the concerts based on Machine Learning (Support Vector Machine)
-        </p>
-        <div className="text-sm text-gray-700 leading-relaxed">
-          <p className="mb-2">
-            <span className="font-semibold">Abstract:</span> Concert tickets revenue has always been a component of the pricing mechanism. When selecting among foreign performers, most of the concert promoters consider the views on Youtube to be helpful for building pricing model.
-          </p>
-          <p className="mb-2">
-            Furthermore, to promoters, other factors including internet word of mouth, exhibition location or new-released albums are also crucial attributes regarding the demand in music industry. That&apos;s why this research, based on the SVM model, intend to manifest what are the features that are able to predict the potential revenue.
-          </p>
-          <p>
-            The study is developed through the combination of 2-year data on Pollstar and the practical point of view from &ldquo;Wake Up Festival&rdquo; and &ldquo;Our Town Love House.&rdquo; The indications is: the collected features could cluster the performers; phrased otherwise, applying the views on Youtube and other related features, promoters could better conduct the price mechanism and create value since the local market trend and demand are analyzed and well-understood.
-          </p>
-        </div>
-      </div>
+      <p>
+        GPA 4.09 <br />
+        Thesis: An analysis of features of the total revenue of the concerts based on Machine Learning (Support Vector
+        Machine)
+      </p>
     ),
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'November 2025 - Present',  //
-    location: 'Coelacanth Co., Ltd',
-    title: 'Founder',
+    date: 'September 2025 - Present',
+    location: 'See U Tech Co., Ltd',
+    title: 'Project Manager / AI Engineer',
     content: (
       <p>
-        ● Digital Transformation – Leading comprehensive digital transformation initiatives, modernizing business processes and implementing cutting-edge technology solutions.
-        <br />● Web Design & Development – Creating responsive, user-centric websites with modern design principles and best practices.
-        <br />● Database Development – Architecting and implementing robust database systems to support business operations and data-driven decision making.
-        <br />● AI Agent Portrait Illustration – Developing AI-powered portrait illustration services, combining artistic creativity with machine learning technology.
-        <br />● Business Card Design – Crafting professional, memorable business card designs that reflect brand identity and values.
-        <br />● UX/UI Design – Designing intuitive user experiences and visually appealing interfaces across digital platforms.
+        ● Executed the Ministry of Digital Affairs Innovation Subsidy Project.
+        <br />● Built an intelligent exam question bank using Python.
+        <br />● Implemented process management by automating scheduling across the examination system.
       </p>
     ),
   },
   {
-    date: 'November 2022 - Present',
-    location: 'Lusive Workshop Co., Ltd, Shanghai, China',
-    title: 'Senior Software Engineer',
+    date: 'June 2025 - September 2025',
+    location: 'Leyan Co., Ltd',
+    title: 'Project Manager / Quality Assurance Engineer',
     content: (
       <p>
-        ● E-commerce Platform Setup for Lusive Workshop – Developed and deployed the Lusive Workshop e-commerce platform using
-        PHP, HTML, and CSS. Designed and created detailed layout wireframes to guide the overall website structure and user interface
-        composition.
-        <br />● Product Management and Onboarding – Automated the process of importing products and descriptions onto the platform using
-        programming scripts (or languages) to ensure efficient and accurate listing.
-        <br />● Back-end System Management and Customer Support – Managed the back-end system, proactively resolving customer issues
-        related to orders and performing bug troubleshooting and root cause analysis when order discrepancies occurred.
-        <br />● Payment Gateway Integration and Maintenance – Managed the Taiwan region's ECPay payment gateway service on behalf of the client/owner. Responsible for the successful integration (API connection) of the ECPay service and the ongoing account
-        operation and maintenance.
+        ● SST AI Image Recognition: Leading the implementation of an AI image recognition system, automating dental
+        image labeling and optimizing clinical workflows.
+        <br />● Applied Science and Technology Union AI Image Recognition: Coordinate cross-functional teams to build an
+        AI-based medical image recognition system supporting dental diagnostics and clinical applications.
+        <br />● Clinic Profile Data Import for Allied Clinics: Planning and executing clinic profile data import
+        processes, enabling rapid system onboarding across multiple allied clinics.
+        <br />● WebHIS Billing Module Development and Data Management: Driving the development and testing of the WebHIS
+        billing module, improving healthcare cost settlement efficiency and accuracy, and leading the implementation of
+        the master data management module, enhancing clinic operations and patient data integrity.
+        <br />● Software Testing Plan – Unit Testing and Integration Testing: Designing and executing unit test plans to
+        ensure functional accuracy and quality consistency across system modules, also conduct integration testing and
+        prepare test reports, validating cross-system stability and reducing release risks.
       </p>
     ),
   },
@@ -493,6 +447,7 @@ export const experience: TimelineItem[] = [
     ),
   },
 ];
+
 /**
  * Teaching Experience section
  */
@@ -544,7 +499,7 @@ export const teaching: TeachingSection = {
       date: '2017 - 2019',
       location: 'National Sun Yat-sen University',
       title: 'Teaching Assistant',
-      level: 'Graduate (MBA)',
+      level: 'Graduate (EMBA)',
       course: 'Managerial Economics',
       duties: [
         'Supported executive MBA students with advanced economic concepts and business applications',
@@ -570,7 +525,7 @@ export const teaching: TeachingSection = {
       date: '2017 - 2019',
       location: 'National Sun Yat-sen University',
       title: 'Private Tutor',
-      level: 'phD',
+      level: 'Doctoral',
       course: 'Game Theory',
       duties: [
         'Provided intensive individualized instruction in advanced game theory concepts',
@@ -583,65 +538,9 @@ export const teaching: TeachingSection = {
 };
 
 /**
- * Certification section - ⭐ UPDATED WITH WHAT IS GENERATIVE AI & LLM COURSES
+ * Certification section
  */
 export const certifications: TimelineItem[] = [
-  {
-    date: 'November 2025',
-    location: 'LinkedIn',
-    title: 'What is Generative AI?',
-    content: (
-      <p>
-        Completed foundational course on Generative AI concepts and applications
-        <br />
-        Credential ID: ID is too long
-        <br />
-        Skills: Generative AI Fundamentals, AI Concepts, Technology Understanding
-      </p>
-    ),
-  },
-  {
-    date: 'November 2025',
-    location: 'LinkedIn',
-    title: 'Generative AI: Introduction to Large Language Models',
-    content: (
-      <p>
-        Completed Generative AI course covering Large Language Models fundamentals, architecture, and real-world applications
-        <br />
-        Credential ID: ID is too long
-        <br />
-        Skills: Generative AI, Large Language Models, LLM Architecture, AI Fundamentals, Prompt Engineering
-      </p>
-    ),
-  },
-  {
-    date: 'November 2025',
-    location: 'LinkedIn',
-    title: 'Advanced Python',
-    content: (
-      <p>
-        Completed Advanced Python course mastering iterators, itertools, and string processing
-        <br />
-        Credential ID: ID is too long
-        <br />
-        Skills: Python Programming, Iterators, Itertools, String Processing, Data Structures
-      </p>
-    ),
-  },
-  {
-    date: 'November 2025',
-    location: 'LinkedIn',
-    title: 'Agile Software Development',
-    content: (
-      <p>
-        Mastered agile software development principles and practices
-        <br />
-        Credential ID: ID is too long
-        <br />
-        Skills: Agile Methodology, Scrum, Agile Teams, Sprint Planning, Iterative Development
-      </p>
-    ),
-  },
   {
     date: 'September 2025',
     location: 'Google / Coursera',
@@ -672,7 +571,7 @@ export const certifications: TimelineItem[] = [
     ),
   },
   {
-    date: '2010',
+    date: '2024',
     location: 'Olympic Fine Arts Competition',
     title: 'Olympic Fine Arts Bronze Medal',
     content: (
