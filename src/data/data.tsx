@@ -78,13 +78,13 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Rita Lin.`,
+  name: `Welcome to Rita Lin's Portfolio!`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Taipei based <strong className="text-stone-100">Senior AI Engineer</strong>, currently working at{' '}
-        <strong className="text-stone-100">a technology company</strong> helping build AI LLM related models, writing
-        agile management projects, domain registrar and site builder.
+        I'm a Taipei based <strong className="text-stone-100">Senior AI Engineer</strong>, currently working as a{' '}
+        <strong className="text-stone-100">freelancer</strong>, helping build AI LLM related models, writing agile
+        management projects, domain registrar and site builder.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, you can catch me training in <strong className="text-stone-100">MMA</strong>,{' '}
