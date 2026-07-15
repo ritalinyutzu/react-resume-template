@@ -631,7 +631,7 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Location,
-      text: 'Taiwan, Taipei',
+      text: 'Taiwan, Chiayi',
       href: 'https://www.google.ca/maps/place/Taipei,+Taiwan/@25.0330,121.5654,14z',
     },
     {
