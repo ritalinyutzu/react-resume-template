@@ -2,11 +2,13 @@ import {
   AcademicCapIcon,
   BuildingOffice2Icon,
   CalendarIcon,
+  EnvelopeIcon,
   FlagIcon,
   MapIcon,
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
+import FacebookIcon from '../components/Icon/FacebookIcon';
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
@@ -738,7 +740,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/ritalinyutzu'},
+  {label: 'Github', Icon: GithubIcon, href: 'http://www.github.com/ritalinyutzu'},
+  {label: 'Facebook', Icon: FacebookIcon, href: 'https://www.facebook.com/ritalinyutzu'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ritalinyutzu'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/ritalinyutzu/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ritalinyutzu/'},
+  {label: 'Email', Icon: EnvelopeIcon, href: 'mailto:msmile09@hotmail.com'},
 ];
