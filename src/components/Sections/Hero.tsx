@@ -2,6 +2,7 @@ import {FC, memo} from 'react';
 
 import {heroData, SectionId} from '../../data/data';
 import Section from '../Layout/Section';
+import Socials from '../Socials';
 
 const Hero: FC = memo(() => {
   const {name} = heroData;
@@ -14,6 +15,9 @@ const Hero: FC = memo(() => {
           <p className="text-[length:clamp(0.875rem,2vw,1.25rem)] text-neutral-300">
             Currently taking on freelance projects
           </p>
+          <div className="mt-2 flex gap-x-4 text-neutral-100">
+            <Socials />
+          </div>
         </div>
       </div>
     </Section>
