@@ -168,7 +168,7 @@ const Projects: FC = memo(() => {
   ];
 
   return (
-    <Section className="bg-neutral-100" sectionId={SectionId.Portfolio}>
+    <Section className="bg-neutral-100" sectionId={SectionId.Projects}>
       <div className="flex flex-col gap-y-8">
         <h2 className="self-center text-xl font-bold text-black">Projects</h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
