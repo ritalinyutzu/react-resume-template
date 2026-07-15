@@ -581,6 +581,55 @@ export const teaching: TeachingSection = {
  */
 export const certifications: TimelineItem[] = [
   {
+    date: 'November 2025',
+    location: 'LinkedIn',
+    title: 'What is Generative AI?',
+    content: (
+      <p>
+        Completed foundational course on Generative AI concepts and applications
+        <br />
+        Skills: Generative AI Fundamentals, AI Concepts, Technology Understanding
+      </p>
+    ),
+  },
+  {
+    date: 'November 2025',
+    location: 'LinkedIn',
+    title: 'Generative AI: Introduction to Large Language Models',
+    content: (
+      <p>
+        Completed Generative AI course covering Large Language Models fundamentals, architecture, and real-world
+        applications
+        <br />
+        Skills: Generative AI, Large Language Models, LLM Architecture, AI Fundamentals, Prompt Engineering
+      </p>
+    ),
+  },
+  {
+    date: 'November 2025',
+    location: 'LinkedIn',
+    title: 'Advanced Python',
+    content: (
+      <p>
+        Completed Advanced Python course mastering iterators, itertools, and string processing
+        <br />
+        Skills: Python Programming, Iterators, Itertools, String Processing, Data Structures
+      </p>
+    ),
+  },
+  {
+    date: 'November 2025',
+    location: 'LinkedIn',
+    title: 'Agile Software Development',
+    content: (
+      <p>
+        Mastered agile software development principles and practices
+        <br />
+        Skills: Agile Methodology, Scrum, Agile Teams, Sprint Planning, Iterative Development
+      </p>
+    ),
+  },
+  {
     date: 'September 2025',
     location: 'Google / Coursera',
     title: 'Google Project Management Professional Certificate',
