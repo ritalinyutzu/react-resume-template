@@ -381,6 +381,14 @@ export const education: TimelineItem[] = [
         GPA 4.09 <br />
         Thesis: An analysis of features of the total revenue of the concerts based on Machine Learning (Support Vector
         Machine)
+        <br />
+        <a
+          className="text-orange-500 underline hover:text-orange-400"
+          href="https://hdl.handle.net/11296/2bx4ek"
+          rel="noopener noreferrer"
+          target="_blank">
+          View Thesis
+        </a>
       </p>
     ),
   },
