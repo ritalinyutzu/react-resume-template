@@ -192,7 +192,7 @@ const Projects: FC = memo(() => {
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag, tagIndex) => (
                     <span
-                      className="rounded-full bg-blue-100 px-3 py-1 text-xs font-medium text-blue-800"
+                      className="rounded-full bg-neutral-200 px-3 py-1 text-xs font-medium text-neutral-700"
                       key={tagIndex}>
                       {tag}
                     </span>
@@ -228,7 +228,7 @@ const Projects: FC = memo(() => {
                 {/* Action Buttons */}
                 <div className="mt-auto flex gap-3 pt-4">
                   <a
-                    className="flex-1 rounded-lg bg-blue-600 px-4 py-2 text-center text-sm font-medium text-white transition-colors hover:bg-blue-700"
+                    className="flex-1 rounded-lg bg-neutral-900 px-4 py-2 text-center text-sm font-medium text-white transition-colors hover:bg-neutral-700"
                     href={project.demo}
                     rel="noopener noreferrer"
                     target="_blank">
