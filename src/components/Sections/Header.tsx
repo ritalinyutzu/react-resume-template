@@ -18,16 +18,29 @@ interface NavEntry {
 const Header: FC = memo(() => {
   const [currentSection, setCurrentSection] = useState<SectionId | null>(null);
   const navSections = useMemo(
-    () => [SectionId.About, SectionId.Resume, SectionId.Portfolio, SectionId.Testimonials, SectionId.Contact],
+    () => [
+      SectionId.About,
+      SectionId.Projects,
+      SectionId.Resume,
+      SectionId.Teaching,
+      SectionId.Skills,
+      SectionId.Portfolio,
+      SectionId.Testimonials,
+      SectionId.Contact,
+    ],
     [],
   );
 
   const navEntries = useMemo<NavEntry[]>(
     () => [
       {label: 'About', href: `/#${SectionId.About}`, section: SectionId.About},
+      {label: 'Projects', href: `/#${SectionId.Projects}`, section: SectionId.Projects},
       {label: 'Resume', href: `/#${SectionId.Resume}`, section: SectionId.Resume},
       {label: 'Education', href: '/#education', section: null},
+      {label: 'Work', href: '/#work', section: null},
       {label: 'Certifications', href: '/#certifications', section: null},
+      {label: 'Teaching', href: `/#${SectionId.Teaching}`, section: SectionId.Teaching},
+      {label: 'Skills', href: `/#${SectionId.Skills}`, section: SectionId.Skills},
       {label: 'My Work', href: `/#${SectionId.Portfolio}`, section: SectionId.Portfolio},
       {label: 'Testimonials', href: `/#${SectionId.Testimonials}`, section: SectionId.Testimonials},
       {label: 'Contact', href: `/#${SectionId.Contact}`, section: SectionId.Contact},
