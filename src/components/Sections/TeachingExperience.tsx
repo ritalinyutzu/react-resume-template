@@ -1,5 +1,6 @@
 import {FC, memo} from 'react';
 
+import {SectionId} from '../../data/data';
 import {TeachingItem, TeachingSection} from '../../data/dataDef';
 import Section from '../Layout/Section';
 
@@ -7,7 +8,7 @@ const TeachingExperience: FC<{data: TeachingSection}> = memo(({data}) => {
   const {sectionName, description, items} = data;
 
   return (
-    <Section className="bg-neutral-100" sectionId="teaching">
+    <Section className="bg-neutral-100" sectionId={SectionId.Teaching}>
       <div className="flex flex-col divide-y-2 divide-neutral-300">
         <div className="pb-6">
           <h2 className="text-2xl font-bold">{sectionName}</h2>
