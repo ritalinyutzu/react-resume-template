@@ -177,7 +177,7 @@ const Projects: FC = memo(() => {
               className="flex flex-col overflow-hidden rounded-2xl bg-white shadow-lg transition-transform hover:scale-105"
               key={index}>
               {/* Project Image */}
-              <div className="relative h-64 w-full overflow-hidden bg-gradient-to-br from-blue-500 to-purple-600">
+              <div className="relative h-64 w-full overflow-hidden bg-neutral-900">
                 <div className="flex h-full items-center justify-center">
                   <div className="text-center text-white">
                     <h3 className="mb-2 text-2xl font-bold">{project.title}</h3>
