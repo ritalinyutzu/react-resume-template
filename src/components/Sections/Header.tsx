@@ -40,7 +40,7 @@ const Header: FC = memo(() => {
       {label: 'Certifications', href: '/#certifications', section: null},
       {label: 'Teaching', href: `/#${SectionId.Teaching}`, section: SectionId.Teaching},
       {label: 'Skills', href: `/#${SectionId.Skills}`, section: SectionId.Skills},
-      {label: 'My Work', href: `/#${SectionId.Portfolio}`, section: SectionId.Portfolio},
+      {label: 'Paintings', href: `/#${SectionId.Portfolio}`, section: SectionId.Portfolio},
       {label: 'Testimonials', href: `/#${SectionId.Testimonials}`, section: SectionId.Testimonials},
       {label: 'Contact', href: `/#${SectionId.Contact}`, section: SectionId.Contact},
     ],
