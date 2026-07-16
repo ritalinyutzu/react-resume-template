@@ -398,35 +398,23 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'September 2025 - Present',
-    location: 'See U Tech Co., Ltd',
-    title: 'Project Manager / AI Engineer',
+    date: 'November 2025 - Present',
+    location: 'Coelacanth Co., Ltd',
+    title: 'Founder',
     content: (
       <p>
-        ● Executed the Ministry of Digital Affairs Innovation Subsidy Project.
-        <br />● Built an intelligent exam question bank using Python.
-        <br />● Implemented process management by automating scheduling across the examination system.
-      </p>
-    ),
-  },
-  {
-    date: 'June 2025 - September 2025',
-    location: 'Leyan Co., Ltd',
-    title: 'Project Manager / Quality Assurance Engineer',
-    content: (
-      <p>
-        ● SST AI Image Recognition: Leading the implementation of an AI image recognition system, automating dental
-        image labeling and optimizing clinical workflows.
-        <br />● Applied Science and Technology Union AI Image Recognition: Coordinate cross-functional teams to build an
-        AI-based medical image recognition system supporting dental diagnostics and clinical applications.
-        <br />● Clinic Profile Data Import for Allied Clinics: Planning and executing clinic profile data import
-        processes, enabling rapid system onboarding across multiple allied clinics.
-        <br />● WebHIS Billing Module Development and Data Management: Driving the development and testing of the WebHIS
-        billing module, improving healthcare cost settlement efficiency and accuracy, and leading the implementation of
-        the master data management module, enhancing clinic operations and patient data integrity.
-        <br />● Software Testing Plan – Unit Testing and Integration Testing: Designing and executing unit test plans to
-        ensure functional accuracy and quality consistency across system modules, also conduct integration testing and
-        prepare test reports, validating cross-system stability and reducing release risks.
+        ● Digital Transformation – Leading comprehensive digital transformation initiatives, modernizing business
+        processes and implementing cutting-edge technology solutions.
+        <br />● Web Design & Development – Creating responsive, user-centric websites with modern design principles
+        and best practices.
+        <br />● Database Development – Architecting and implementing robust database systems to support business
+        operations and data-driven decision making.
+        <br />● AI Agent Portrait Illustration – Developing AI-powered portrait illustration services, combining
+        artistic creativity with machine learning technology.
+        <br />● Business Card Design – Crafting professional, memorable business card designs that reflect brand
+        identity and values.
+        <br />● UX/UI Design – Designing intuitive user experiences and visually appealing interfaces across digital
+        platforms.
       </p>
     ),
   },
