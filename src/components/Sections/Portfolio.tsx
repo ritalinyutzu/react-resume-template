@@ -9,7 +9,7 @@ const Portfolio: FC = memo(() => {
   return (
     <Section className="bg-neutral-800" sectionId={SectionId.Portfolio}>
       <div className="flex flex-col gap-y-8">
-        <h2 className="self-center text-xl font-bold text-white">Check out some of my work</h2>
+        <h2 className="self-center text-xl font-bold text-white">Website Portfolio</h2>
         <div className="flex justify-center w-full">
           <div className="w-full max-w-2xl">
             {portfolioItems.map((item, index) => {
