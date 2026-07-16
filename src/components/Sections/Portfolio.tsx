@@ -14,20 +14,28 @@ const Portfolio: FC = memo(() => {
           <div className="w-full max-w-2xl">
             {portfolioItems.map((item, index) => {
               const {title, image, description, url} = item;
+              const isFirstPainting = title.startsWith('Digital Art Collection') && !portfolioItems[index - 1]?.title.startsWith('Digital Art Collection');
               return (
-                <div className="pb-8" key={`${title}-${index}`}>
-                  <a className="block" href={url} rel="noopener noreferrer" target="_blank">
-                    <div className="overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl">
-                      <Image alt={title} className="h-full w-full object-cover" placeholder="blur" src={image} />
-                    </div>
-                    <div className="mt-4 text-center">
-                      <h3 className="text-lg font-bold text-white mb-2 flex items-center justify-center gap-2">
-                        {title}
-                        <ArrowTopRightOnSquareIcon className="h-5 w-5 text-white/70" />
-                      </h3>
-                      <p className="text-sm text-white/80 leading-relaxed px-4">{description}</p>
-                    </div>
-                  </a>
+                <div key={`${title}-${index}`}>
+                  {isFirstPainting && (
+                    <h2 className="mb-8 scroll-mt-20 self-center text-center text-xl font-bold text-white" id="paintings">
+                      Paintings
+                    </h2>
+                  )}
+                  <div className="pb-8">
+                    <a className="block" href={url} rel="noopener noreferrer" target="_blank">
+                      <div className="overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl">
+                        <Image alt={title} className="h-full w-full object-cover" placeholder="blur" src={image} />
+                      </div>
+                      <div className="mt-4 text-center">
+                        <h3 className="text-lg font-bold text-white mb-2 flex items-center justify-center gap-2">
+                          {title}
+                          <ArrowTopRightOnSquareIcon className="h-5 w-5 text-white/70" />
+                        </h3>
+                        <p className="text-sm text-white/80 leading-relaxed px-4">{description}</p>
+                      </div>
+                    </a>
+                  </div>
                 </div>
               );
             })}
