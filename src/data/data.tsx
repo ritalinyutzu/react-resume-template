@@ -30,7 +30,6 @@ import artwork14 from '../images/portfolio/artwork/artwork-14.jpg';
 import artwork15 from '../images/portfolio/artwork/artwork-15.jpg';
 import artwork16 from '../images/portfolio/artwork/artwork-16.jpg';
 import artwork17 from '../images/portfolio/artwork/artwork-17.jpg';
-import cdcAntibiotic2026Image from '../images/portfolio/cdc-antibiotic-2026.png';
 import lusiveImage from '../images/portfolio/lusive-workshop.png';
 import rottenBluesImage from '../images/portfolio/rotten-blues.png';
 import profilepic from '../images/profilepic.jpg';
@@ -240,13 +239,6 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
-  {
-    title: 'Taiwan CDC Antibiotics Awareness Campaign Website',
-    description:
-      "Built the official website for Taiwan CDC's 2026 'Antibiotics Smart Use, One Health in Action' illustration contest, promoting responsible antibiotic use and public health awareness across human and animal health.",
-    url: 'https://2026cdcpainting.com/',
-    image: cdcAntibiotic2026Image,
-  },
   {
     title: 'Lusive Workshop Official Website',
     description:
